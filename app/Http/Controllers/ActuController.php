@@ -1,0 +1,23 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use App\Models\Admin\Articles;
+
+class ActuController extends Controller
+{
+    //
+
+    public function show(Request $request){
+
+        try {
+            $article = Articles::findOrFail($request->id);
+            return view($article->source_adress, compact('article'));
+        } catch (\Illuminate\Database\Eloquent\ModelNotFoundException $e) {
+            // return response()->view('errors.article_not_found', [], 404);
+            abort(404);
+        }
+
+    }
+}

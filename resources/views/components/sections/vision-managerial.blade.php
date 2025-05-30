@@ -6,7 +6,7 @@
                             <span class="title_1">Vision Managériale pour l'année 2025</span>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, libero? Molestiae iure quaerat accusamus esse assumenda explicabo aut, tempora incidunt.</p>
                             <div class="contact_button">
-                                <span class="contact_bttn"><a href="cadre-organique.html">En savoir plus > </a></span>
+                                <span class="contact_bttn"><a href="cadre-organique.html">En savoir plus <i class="fa-solid fa-angle-right"></i> </a></span>
                             </div>
                         </div>
 

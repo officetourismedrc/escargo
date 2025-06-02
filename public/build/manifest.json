@@ -1,13 +1,52 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-C62j675S.css",
+    "file": "assets/app-GsijUQQk.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
+  "resources/images/Logos/ONT1.svg": {
+    "file": "assets/ONT1-T52WdH_P.svg",
+    "src": "resources/images/Logos/ONT1.svg"
+  },
+  "resources/images/Logos/ONT3.png": {
+    "file": "assets/ONT3-DFzLegAZ.png",
+    "src": "resources/images/Logos/ONT3.png"
+  },
+  "resources/images/Logos/ONT6.svg": {
+    "file": "assets/ONT6-Dfr1Jtqc.svg",
+    "src": "resources/images/Logos/ONT6.svg"
+  },
+  "resources/images/Paysage_du_territoire_de_Masisi.jpg": {
+    "file": "assets/Paysage_du_territoire_de_Masisi-CAopiIZ4.jpg",
+    "src": "resources/images/Paysage_du_territoire_de_Masisi.jpg"
+  },
   "resources/js/app.js": {
-    "file": "assets/app-l0sNRNKZ.js",
+    "file": "assets/app-VofyX6WK.js",
     "name": "app",
     "src": "resources/js/app.js",
+    "isEntry": true,
+    "imports": [
+      "resources/js/script.js",
+      "resources/js/articles.js"
+    ]
+  },
+  "resources/js/articles.js": {
+    "file": "assets/articles-CjqTnb4h.js",
+    "name": "articles",
+    "src": "resources/js/articles.js",
     "isEntry": true
+  },
+  "resources/js/script.js": {
+    "file": "assets/script-CiW_l9QP.js",
+    "name": "script",
+    "src": "resources/js/script.js",
+    "isEntry": true,
+    "css": [
+      "assets/script-Ds_YmOBQ.css"
+    ],
+    "assets": [
+      "assets/ONT1-T52WdH_P.svg",
+      "assets/ONT6-Dfr1Jtqc.svg"
+    ]
   }
 }

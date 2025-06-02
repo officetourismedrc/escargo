@@ -659,7 +659,7 @@ div.color-change  div.nav-search-adjuster span:only-child{
 
   .swiper-wrapper .swiper-slide:nth-child(2){
    
-    background-image: url("../images/edk3.jpg");
+    background-image: url("/images/edk3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -668,7 +668,7 @@ div.color-change  div.nav-search-adjuster span:only-child{
 
   .swiper-wrapper .swiper-slide:nth-child(3){
     
-    background-image: url("../images/lolabonobo3.jpg");
+    background-image: url("/images/lolabonobo3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1109,7 +1109,7 @@ display: none;
 /* ========section vision managerial ======= */
 
    .vm_section{
-       background-image: url('../../public/images/vm.jpeg');
+       background-image: url('../../images/vm.jpeg');
        background-repeat: no-repeat;
        background-size: cover;
        position: relative;
@@ -2774,7 +2774,7 @@ justify-items: left;
         height:100%;
         background-color: rgb(106, 0, 255);
         z-index: -1;
-        background-image: url('../../public/images/Paysage_du_territoire_de_Masisi.jpg');
+        background-image: url('../../images/Paysage_du_territoire_de_Masisi.jpg'); 
         background-size: cover;
         background-repeat: no-repeat;
        

@@ -1,0 +1,53 @@
+name: Laravel Deployment
+on:
+  push:
+    branches:
+      - master  # Adjust branch if necessary
+      
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build assets
+        run: npm run build
+
+      - name: Upload built assets as artifact (optional)
+        uses: actions/upload-artifact@v3
+        with:
+          name: build
+          path: public/build
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Deploy to Hostinger via SSH
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOSTINGER_SSH_HOST }}
+          username: ${{ secrets.HOSTINGER_SSH_USER }}
+          password: ${{ secrets.HOSTINGER_SSH_PRIVATE_KEY }}
+          script: |
+            cd /home/u763080638/domains/officetourisme.cd/escargo/
+            git pull origin master
+            php artisan config:clear
+            php artisan cache:clear
+            php artisan route:clear
+            php artisan view:clear
+            mv public/build ../public-html/build

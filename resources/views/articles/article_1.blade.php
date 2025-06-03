@@ -66,7 +66,7 @@
 
 
     
-                    <!-- <img src="../assets/images/articles-images/imagesOuYPstREPgloF9DdNtP2d1fyArp2gc9PCLnT2zAb.webp" alt="" class="hero-simple_img"> -->
+                    <!-- <img src="../assets/images/articles-images/imagesOuYPstREPgloF9DdNtP2d1fyArp2gc9PCLnT2zAb.webp" alt="" class="hero-simple_img"> retyy-->
                   
                         
 

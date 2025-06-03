@@ -1,6 +1,6 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-GsijUQQk.css",
+    "file": "assets/app-vxR4bOru.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
@@ -21,7 +21,7 @@
     "src": "resources/images/Paysage_du_territoire_de_Masisi.jpg"
   },
   "resources/js/app.js": {
-    "file": "assets/app-VofyX6WK.js",
+    "file": "assets/app-DlEiAm8M.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
@@ -37,7 +37,7 @@
     "isEntry": true
   },
   "resources/js/script.js": {
-    "file": "assets/script-CiW_l9QP.js",
+    "file": "assets/script-B-N99roZ.js",
     "name": "script",
     "src": "resources/js/script.js",
     "isEntry": true,

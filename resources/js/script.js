@@ -5,6 +5,16 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
+import assetLogoColorJs from './../images/Logos/ONT1.svg';
+import assetLogoBlackWhiteJs from './../images/Logos/ONT6.svg';
+import assetBurgerColorJs from '../../public/images/icons/menu-burger-blue.png';
+import assetBurgerWhiteJs from '../../public/images/icons/menu-burger-white.png';
+import assetChevronWhiteJs from '../../public/images/Vectors/angle-down.svg';
+import assetChevronBlueJs from  '../../public/images/icons/chevron-blue.svg';
+
+
+
+
 import { gsap } from "gsap";
     
 import { Flip } from "gsap/Flip";
@@ -332,14 +342,18 @@ if(document.querySelector('.hero_section') !==  null){
 
   const chevronMenu = document.querySelector('.menu-list-top span img');
 
-  const assetLogoColor = new URL('../images/Logos/ONT1.svg', import.meta.url).href;
-  const assetLogoBlackWhite = new URL('../images/Logos/ONT6.svg', import.meta.url).href;
-  const assetBurgerColor = new URL('../images/icons/menu-burger-blue.png', import.meta.url).href;
-  const assetBurgerWhite = new URL('../images/icons/menu-burger-white.png', import.meta.url).href;
-  const assetChevronWhite = new URL('../images/Vectors/angle-down.svg', import.meta.url).href;
-  const assetChevronBlue = new URL('../images/icons/chevron-blue.svg', import.meta.url).href;
+  const assetLogoColor =  assetLogoColorJs;
+  const assetLogoBlackWhite =  assetLogoBlackWhiteJs;
+  const assetBurgerColor = assetBurgerColorJs;
+  const assetBurgerWhite = assetBurgerWhiteJs;
+  const assetChevronWhite = assetChevronWhiteJs;
+  const assetChevronBlue = assetChevronBlueJs;
   // Register ScrollTrigger plugin
         // Create flip animation timeline
+
+
+//import assetLogoColorJs from '/../../images/logos/ONT1.svg'; new URL('../../public/images/logos/ONT1.svg', import.meta.url).href;
+//import assetLogoBlackWhiteJs from '/../../images/logos/ONT6.svg'; new URL('../../public/images/logos/ONT6.svg', import.meta.url).href;
   const tl = gsap.timeline({
       scrollTrigger: {
           trigger: ".header-cotainer",

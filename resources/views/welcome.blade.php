@@ -10,7 +10,7 @@
         <link rel="icon" href="/favicon.svg" type="image/svg+xml">
         <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-        <link rel="icon" type="image/svg+xml" href="assets/images/Logos/ONT2.svg" />
+        <link rel="icon" type="image/svg+xml" href="{{ asset('./images/Logos/ONT2.svg')}}" />
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -190,8 +190,8 @@
                 <div class="swiper">
                   <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                      <video autoplay muted loop playsinline poster="{{ asset('assets/images/002.jpg') }}">
-                        <source src="{{ asset('/videos/My most beautiful drone shot – Cinematic FPV on an empty beach.mp4') }}" type="video/mp4">
+                      <video autoplay muted loop playsinline poster="{{ asset('/images/002.jpg') }}">
+                        <source src="{{ asset('/videos/track_1.mp4') }}" type="video/mp4">
                       </video>
                       <div class="slide-content">
                         <div class="slide-caption">
@@ -202,7 +202,7 @@
                     </div>
                     <div class="swiper-slide">
                       <video autoplay muted loop playsinline poster="{{ asset('/images/010.jpg') }}">
-                        <source src=" {{ asset('/videos/Lighthouse.mp4" type="video/mp4') }}">
+                        <source src=" {{ asset('/videos/Lighthouse.mp4')}}"   type="video/mp4">
                       </video>
                       <div class="slide-content">
                         <div class="slide-caption">

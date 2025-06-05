@@ -38,15 +38,7 @@
  <!-- Styles -->
  {{-- @vite(['resources/css/styles.css']) --}}
  
- @vite(['resources/css/cadre-organique.css'])
- @vite(['resources/css/actualite.css'])
- @vite(['resources/css/actualites.css'])
- @vite(['resources/css/antennes.css'])
- @vite(['resources/css/contacts.css'])
- @vite(['resources/css/office-direction.css'])
- @vite(['resources/css/about-us.css'])
- @vite(['resources/css/pages.css'])
-
+ 
      <style>
         .hero-slider {
           position: relative;

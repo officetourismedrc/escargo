@@ -1,6 +1,9 @@
 @import 'tailwindcss';
 @import '../../vendor/livewire/flux/dist/flux.css';
 @import './styles.css';
+@import './cadre-organique.css';
+@import './pages.css';
+
 
 
 @source '../views';

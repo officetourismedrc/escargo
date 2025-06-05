@@ -1,6 +1,42 @@
 {
+  "public/images/Masisi.jpg": {
+    "file": "assets/Masisi-CvnCFvfz.jpg",
+    "src": "public/images/Masisi.jpg"
+  },
+  "public/images/Vectors/angle-down.svg": {
+    "file": "assets/angle-down-CNLu8yy-.svg",
+    "src": "public/images/Vectors/angle-down.svg"
+  },
+  "public/images/icons/chevron-blue.svg": {
+    "file": "assets/chevron-blue-NbfEbrLI.svg",
+    "src": "public/images/icons/chevron-blue.svg"
+  },
+  "public/images/icons/menu-burger-blue.png": {
+    "file": "assets/menu-burger-blue-CIIEJO-u.png",
+    "src": "public/images/icons/menu-burger-blue.png"
+  },
+  "public/images/icons/menu-burger-white.png": {
+    "file": "assets/menu-burger-white-BIwGyEij.png",
+    "src": "public/images/icons/menu-burger-white.png"
+  },
+  "public/images/lolabonobo3.jpg": {
+    "file": "assets/lolabonobo3-4EmeOq3i.jpg",
+    "src": "public/images/lolabonobo3.jpg"
+  },
+  "public/images/valeur2valeur3.jpg": {
+    "file": "assets/valeur2valeur3-kuTNaJWS.jpg",
+    "src": "public/images/valeur2valeur3.jpg"
+  },
+  "public/images/vm.jpeg": {
+    "file": "assets/vm-D7t2JdBY.jpeg",
+    "src": "public/images/vm.jpeg"
+  },
+  "public/images/zongo4.webp": {
+    "file": "assets/zongo4-WgCSrD_z.webp",
+    "src": "public/images/zongo4.webp"
+  },
   "resources/css/app.css": {
-    "file": "assets/app-vxR4bOru.css",
+    "file": "assets/app-_LJyf7tG.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
@@ -21,7 +57,7 @@
     "src": "resources/images/Paysage_du_territoire_de_Masisi.jpg"
   },
   "resources/js/app.js": {
-    "file": "assets/app-DlEiAm8M.js",
+    "file": "assets/app-DbeuO1U1.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
@@ -37,7 +73,7 @@
     "isEntry": true
   },
   "resources/js/script.js": {
-    "file": "assets/script-B-N99roZ.js",
+    "file": "assets/script-xBIPZYpm.js",
     "name": "script",
     "src": "resources/js/script.js",
     "isEntry": true,
@@ -45,8 +81,12 @@
       "assets/script-Ds_YmOBQ.css"
     ],
     "assets": [
+      "assets/ONT6-Dfr1Jtqc.svg",
       "assets/ONT1-T52WdH_P.svg",
-      "assets/ONT6-Dfr1Jtqc.svg"
+      "assets/menu-burger-blue-CIIEJO-u.png",
+      "assets/menu-burger-white-BIwGyEij.png",
+      "assets/angle-down-CNLu8yy-.svg",
+      "assets/chevron-blue-NbfEbrLI.svg"
     ]
   }
 }

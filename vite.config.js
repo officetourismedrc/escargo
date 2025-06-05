@@ -3,9 +3,9 @@ import {
 } from 'vite';
 import laravel from 'laravel-vite-plugin';
 import tailwindcss from "@tailwindcss/vite";
-
+///public-html/base
 export default defineConfig({
-    base : '/public-html/base',
+    base : './',
     plugins: [
         laravel({
             input: ['resources/css/app.css', 

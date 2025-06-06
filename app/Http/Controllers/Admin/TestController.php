@@ -11,6 +11,7 @@ use App\Models\User;
 use Illuminate\Support\Facades\DB;
 use App\Models\Admin\MenuPrincipal;
 use App\Models\Admin\SubMenu;
+use App\Models\Admin\Articles;
 
 class TestController extends Controller
 {
@@ -39,6 +40,8 @@ class TestController extends Controller
                                               ->where('sm.menu_principal_id','=',$menudata[$key]->id)
                                               ->get();
                 }
+
+        $articles = Articles::take()->get();
  
 
         return $menudata;

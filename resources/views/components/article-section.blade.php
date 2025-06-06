@@ -1,4 +1,3 @@
- <!--======start section info ========= -->
 
          <section class="section section-actu">
             <div class="container container-actu">
@@ -10,17 +9,17 @@
                       <div class="actu-left_title">
                           <div class="actu-left_main-title">
 
-                            <a  href="{{ route('article.route', ['id' => 2])}}" class="title_1">
-                                L'ONT et l'ANAPI main dans la main pour la promotion du tourisme en RDC
+                            <a  href="{{ route('article.route', ['id' => $articles->first()->id, 'slug' => Illuminate\Support\Str::slug($articles->first()->title)])}}" class="title_1">
+                               {{ Illuminate\Support\Str::limit($articles->first()->title, 65)  }}
                             </a>
                           </div>
                           <div class="actu-left_meta">
                             <span class="actu-meta_author">
-                                <span>icon</span>
+                                <span><i class="fi fi-rr-user-pen"></i></span>
                                 <span>Blaise Basomboli</span>
                             </span>
                             <span class="actu-meta_publish-date">
-                                11,mars,2025 - kinshasa
+                               {{ $articles->first()->publication_date }}
                             </span>
                           </div>
                       </div>
@@ -30,13 +29,19 @@
                    </div>
                    <div class="actu-item actu-right">
                        <div class="actu-right_content">
-                          <a class="actu-right_items" href="{{ route('article.route', ['id' => 3])}}">
-                             <div class="actu-right_numero">01</div>
+
+
+                        @foreach ($articles as $article)
+
+                          <a class="actu-right_items" href="{{ route('article.route', ['id' => $article->id, 'slug' => Illuminate\Support\Str::slug($article->title)])}}">
+                             <div class="actu-right_numero">{{ sprintf('%02d', $loop->iteration) }}</div>
                              <div class="actu-right_title">
-                                <div class="actu-right_main-title">La PCA de l'ONT à la CSW 69</div>
-                                <div class="actu-right_desc">Plaidoyer pour l'avancement des femmes comme condition d'une société pacifique</div>
+                                <div class="actu-right_main-title">{{ Illuminate\Support\Str::limit($article->title, 45)  }}</div>
+                                <div class="actu-right_desc">{{ Illuminate\Support\Str::limit($article->summary, 60)  }}</div>
                              </div>
-                            </a>
+                          </a>
+
+                        @endforeach
 
                     {{--      <a class="actu-right_items" href="{{ route('article.route', ['id' => 4])}}">
                             <div class="actu-right_numero">02</div>

@@ -277,7 +277,10 @@
        <!-- ==================== -->
 
 
-       @include('components.sections.actu-info')
+       {{-- @include('components.sections.actu-info') --}}
+
+       <x-article-section />
+       
          <!--== start section nos partennaires ===-->
 
 

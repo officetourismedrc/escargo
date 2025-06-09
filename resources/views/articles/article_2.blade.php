@@ -1,5 +1,6 @@
 <x-layouts.app :title="__('ok')">
-  <x-hero-section title="La PCA de l'ONT à la CSW 69 : Plaidoyer pour l'avancement des femmes comme condition d'une société pacifique" />
+  <x-hero-section title="La PCA de l'ONT à la CSW 69 : Plaidoyer pour l'avancement des femmes comme condition d'une société pacifique" 
+  imageUrl="/images/articles-images/images5joznLWVjLAnus2RoUmpT3dq0wysH1YiEk1U5set.webp"/>
   
 
    

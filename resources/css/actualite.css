@@ -127,9 +127,9 @@
 .actualite-text-text p{
     font-family: var(--body-font);
     color: var(--text-color);
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 200;
-    line-height: 1.3rem;
+    
 }
 .actualite-meta{
     width: 100%;

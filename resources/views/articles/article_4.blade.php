@@ -1,5 +1,6 @@
 <x-layouts.app :title="__('ok')">
-  <x-hero-section title="Célébration du 8 Mars : L’Office National du Tourisme célèbre la femme et le patrimoine congolais au Village de la Femme" />
+  <x-hero-section title="Célébration du 8 Mars : L’Office National du Tourisme célèbre la femme et le patrimoine congolais au Village de la Femme" 
+                    imageUrl="/images/articles-images/imagesLeXPepSAyZRnWJrtMFASZh4ubWnpppK4ccoKEgn4.webp"/>
   
 
     

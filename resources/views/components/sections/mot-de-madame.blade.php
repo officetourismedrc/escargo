@@ -6,7 +6,7 @@
             <div class="container container_about-us">
                 <div class="content content_about-us">
                      <div class="about-us_left">
-                        <img src="{{ asset('/images/010.jpg ') }}" alt="" class="about-us-photo">
+                        <img src="{{ asset('/images/portrait-madame-dg.jpeg') }}" alt="" class="about-us-photo">
                      </div>
                      <div class="about-us_right">
                          <div class="about-us_title">

@@ -1,5 +1,6 @@
 <x-layouts.app :title="__('ok')">
-  <x-hero-section title="L'ONT et l'ANAPI main dans la main pour la promotion du tourisme en RDC" />
+  <x-hero-section title="L'ONT et l'ANAPI main dans la main pour la promotion du tourisme en RDC" 
+  imageUrl="/images/articles-images/imagesOuYPstREPgloF9DdNtP2d1fyArp2gc9PCLnT2zAb.webp"/>
   
 
 

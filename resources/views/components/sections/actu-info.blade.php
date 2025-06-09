@@ -15,7 +15,7 @@
                             </a>
                           </div>
                           <div class="actu-left_meta">
-                            <span class="actu-meta_author">
+                            <span class="actu-meta_author"> 
                                 <span>icon</span>
                                 <span>Blaise Basomboli</span>
                             </span>

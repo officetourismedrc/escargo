@@ -1,6 +1,8 @@
 
 <x-layouts.app :title="__('ok')">
-    <x-hero-section title="Kinshasa : L'Office National du Tourisme a célébré la journée internationale des monuments et sites touristiques" />
+    <x-hero-section title="Kinshasa : L'Office National du Tourisme a célébré la journée internationale des monuments et sites touristiques" 
+                    imageUrl="/images/articles-images/Photo-traiter4.png"
+    />
 
     <section class="section">
         <div class="container actualite-container">

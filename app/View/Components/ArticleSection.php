@@ -17,7 +17,7 @@ class ArticleSection extends Component
     public function __construct()
     {
         //
-        $this->articles = Articles::take(5)->get();
+        $this->articles = Articles::latest()->take(5)->get();
     }
 
     /**

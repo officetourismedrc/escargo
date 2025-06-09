@@ -1,6 +1,7 @@
   
 <x-layouts.app :title="__('ok')">
-  <x-hero-section title="Commémoration de la Journée Mondiale de la Culture Africaine et Afrodescendante (JMCA)" />
+  <x-hero-section title="Commémoration de la Journée Mondiale de la Culture Africaine et Afrodescendante (JMCA)" 
+                   imageUrl="/images/articles-images/AfRLWYCrvVYi4vxGQDHXJpW3Lh3oMs7shyBfnI4Y.jpg.jpg" />
   
 
   <section class="section">

@@ -1,5 +1,5 @@
 <x-layouts.app :title="__('ok')">
-  <x-hero-section title="Guide touristique, un métier à l'honneur le 21 février" />
+  <x-hero-section title="Guide touristique, un métier à l'honneur le 21 février" imageUrl="/images/articles-images/AfRLWYCrvVYi4vxGQDHXJpW3Lh3oMs7shyBfnI4Y.jpg.jpg" />
   
 
       

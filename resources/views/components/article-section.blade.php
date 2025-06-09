@@ -2,15 +2,15 @@
          <section class="section section-actu">
             <div class="container container-actu">
                    <div class="title-section">
-                    <a href="actualities.html">  <h2 class="title_1"> Actualités et Infos <i class="fa-solid fa-arrow-up-right-from-square"></i></h2></a>
+                    <a href="">  <h2 class="title_1"> Actualités et Infos <i class="fa-solid fa-arrow-up-right-from-square"></i></h2></a>
                    </div>
                 <div class="content content-actu">
                    <div class="actu-item actu-left">
                       <div class="actu-left_title">
                           <div class="actu-left_main-title">
 
-                            <a  href="{{ route('article.route', ['id' => $articles->first()->id, 'slug' => Illuminate\Support\Str::slug($articles->first()->title)])}}" class="title_1">
-                               {{ Illuminate\Support\Str::limit($articles->first()->title, 65)  }}
+                            <a  href="{{ route('article.route', ['id' => $articles->sortByDesc('created_at')->first()->id, 'slug' => Illuminate\Support\Str::slug($articles->sortByDesc('created_at')->first()->title)])}}" class="title_1">
+                               {{ Illuminate\Support\Str::limit($articles->sortByDesc('created_at')->first()->title, 65)  }}
                             </a>
                           </div>
                           <div class="actu-left_meta">
@@ -19,12 +19,12 @@
                                 <span>Blaise Basomboli</span>
                             </span>
                             <span class="actu-meta_publish-date">
-                               {{ $articles->first()->publication_date }}
+                               {{ $articles->sortByDesc('created_at')->first()->publication_date }}
                             </span>
                           </div>
                       </div>
                       <div class="actu-left_img">
-                         <img src="{{ asset('/images/articles-images/imagesOuYPstREPgloF9DdNtP2d1fyArp2gc9PCLnT2zAb.webp') }}" alt="" class="actu-left_image">
+                         <img src="{{ asset($articles->sortByDesc('created_at')->first()->featured_image) }}" alt="" class="actu-left_image">
                       </div>
                    </div>
                    <div class="actu-item actu-right">

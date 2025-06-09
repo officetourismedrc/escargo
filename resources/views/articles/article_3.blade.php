@@ -1,5 +1,6 @@
 <x-layouts.app :title="__('ok')">
-  <x-hero-section title="Bientôt l’opérationnalisation des « Maisons du Tourisme » à Kinshasa : le Gouvernement provincial et l’ONT harmonisent" />
+  <x-hero-section title="Bientôt l’opérationnalisation des « Maisons du Tourisme » à Kinshasa : le Gouvernement provincial et l’ONT harmonisent" 
+  imageUrl="/images/articles-images/jEHpDBK1sDtdp4S4MpjPr67iutauFS4vjhQHONbs.webp" />
   
 
     

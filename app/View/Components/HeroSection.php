@@ -12,11 +12,13 @@ class HeroSection extends Component
      * Create a new component instance.
      */
     public $title;
+    public $imageUrl;
     
-    public function __construct($title)
+    public function __construct($title, $imageUrl)
     {
         //
         $this->title = $title;
+        $this->imageUrl = $imageUrl;
     }
 
     /**

@@ -2,7 +2,9 @@
     <div class="hero-simple-banner">
         <div class="hero-simple_content">
             <div>
-            <img src="{{ asset('/images/articles-images/Photo-traiter4.png')}}"  alt="" class="hero-simple_img">
+               
+            <img src="{{ asset($imageUrl)}}"  alt="why why why" class="hero-simple_img">
+            
             </div>
         </div>
 

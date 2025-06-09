@@ -4,7 +4,7 @@
                     <div class="content vm_content">
                         <div class="vm_desc_top">
                             <span class="title_1">Vision Managériale pour l'année 2025</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, libero? Molestiae iure quaerat accusamus esse assumenda explicabo aut, tempora incidunt.</p>
+                            <p>Présentation et mise en oeuvre des plans stratégiques de communication et marketing de l’ONT pour l’année 2025; Accroissement de la visibilité de l’Offre touristique de la RDC au niveau national et international.</p>
                             <div class="contact_button">
                                 <span class="contact_bttn"><a href="cadre-organique.html">En savoir plus <i class="fa-solid fa-angle-right"></i> </a></span>
                             </div>

@@ -3,8 +3,14 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <meta name="keywords" content="Tourisme RDC, Voyage au Congo, Parcs nationaux RDC, Safari en RDC, Écotourisme Congo, Destinations touristiques RDC, Patrimoine culturel congolais, Aventure en République Démocratique du Congo, Sites historiques RDC, Tourisme durable en RDC, Voyage en Afrique centrale, Expérience authentique au Congo, Randonnée en RDC, Lacs et rivières du Congo, Faune et flore du Congo, Office National du Tourisme RDC, Guide touristique RDC, Meilleurs endroits à visiter en RDC, Voyage organisé au Congo, Tourisme et développement RDC, Hébergement et hôtels RDC, Activités touristiques en RDC, Transport et circuits en RDC, Conseils voyage RDC, Sécurité et tourisme en RDC">
+         <x-meta-tags-principal />
+         <x-o-g-meta-principal />
+         <x-twitter-meta-principal />
+         
         <title>Office National Tourisme RD Congo</title>
+
+
 
         <link rel="icon" href="/favicon.ico" sizes="any">
         <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -107,7 +113,7 @@
         <div class="header-cotainer">         
                  <a class="logo" href="{{ route('home')}}">
                  <div class="logo-adjuster">
-                    <img src="{{ Vite::asset('resources/images/Logos/ONT6.svg') }}" alt="" class="logo-img">
+                    <img src="{{ Vite::asset('resources/images/Logos/ONT6.svg') }}" alt="logo de l'office national du tourisme rd congo" class="logo-img">
 
                     
                  </div>
@@ -115,14 +121,14 @@
              <div class="nav">
                  <div class="nav-top">
                     <div class="nav-top_left">
-                        <span>ontRDC@officetourisme.com</span>
+                        <span>info@tourismerdc.cd</span>
                         <span>+243 991785496</span>
                         
                     </div>
                     <div class="nav-top_right">
-                        <span><i class="fa-brands fa-facebook-f"></i></span>
-                        <span><i class="fa-brands fa-x-twitter"></i></span>
-                        <span><i class="fa-brands fa-instagram"></i></span>
+                      <a href="https://www.facebook.com/share/15nniVBRbD/?mibextid=wwXIfr">  <span><i class="fa-brands fa-facebook-f"></i></span></a>
+                      <a href="https://x.com/congordtourism?s=11"> <span><i class="fa-brands fa-x-twitter"></i></span></a> 
+                      <a href="https://www.instagram.com/info_tourisme_rdcongo1?igsh=YWsxYTc2OGdod29t">  <span><i class="fa-brands fa-instagram"></i></span></a>
                     </div>
                  </div>
                  <div class="nav-bottom">
@@ -298,7 +304,7 @@
 <!-- swiper script -->
    
     
-        @vite(['resources/js/script.js'])
-        @vite(['resources/js/articles.js'])
+        {{-- @vite(['resources/js/script.js'])
+        @vite(['resources/js/articles.js']) --}}
     </body>
 </html>

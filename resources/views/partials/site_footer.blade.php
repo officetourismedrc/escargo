@@ -95,9 +95,9 @@
                      <span class="footer-bottom-link">Copyright 2025, all right reserved</span>
                     </div>
                     <div class="footer-bottom-items">
-                        <span class="top_logo"><i class="fa-brands fa-facebook-f"></i></span>
-                        <span class="top_logo"><i class="fa-brands fa-x-twitter"></i></span>
-                        <span class="top_logo"><i class="fa-brands fa-instagram"></i></span>
+                       <a href="https://www.facebook.com/share/15nniVBRbD/?mibextid=wwXIfr">  <span><i class="fa-brands fa-facebook-f"></i></span></a>
+                      <a href="https://x.com/congordtourism?s=11"> <span><i class="fa-brands fa-x-twitter"></i></span></a> 
+                        <a href="https://www.instagram.com/info_tourisme_rdcongo1?igsh=YWsxYTc2OGdod29t">  <span><i class="fa-brands fa-instagram"></i></span></a>
                     </div>
                 </div>
             </div>

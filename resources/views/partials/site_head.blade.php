@@ -2,7 +2,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Office tourisme</title>
+    <x-meta-tags-principal />
+
+    <title>Office National Tourisme RD Congo</title>
 
     <link rel="icon" href="/favicon.ico" sizes="any">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">

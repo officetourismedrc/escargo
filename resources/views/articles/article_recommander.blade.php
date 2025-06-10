@@ -14,83 +14,34 @@
             <div class="actulite-rec-bottom">
                <div class="actulite-rec-bottom-content">
 
+                @foreach($recommandedArticle as $article)
+
+
                   <div class="actulite-rec-card">
-                     <a class="actulite-rec-card-link" href="">
+                     <a class="actulite-rec-card-link" href="{{ route('article.route', ['id' => $article->id, 'slug' => Illuminate\Support\Str::slug($article->title)])}}">
                        <div class="actulite-rec-card-img">
-                         <img class="actulite-rec-card-image" src="{{asset('/images/16280.jpg')}}" alt="">
+                         <img class="actulite-rec-card-image" src="{{asset($article->featured_image)}}" alt="">
                        </div>
                        <div class="actulite-rec-card-content">
                          <div class="actulite-rec-card-content-meta">
                             <span>
                                 <span><i class="fa-solid fa-circle-user"></i></span><span>Blaise Basombolie</span>
                             </span>
-                            <span>Kinshasa, 30 Mars 2025</span>
+                            <span>{{$article->publication_date}}</span>
                          </div>
                          <div class="actulite-rec-card-content-title">
                             <span class="title_1">
-                                L'ONT et l'ANAPImain dans main pour la promotion du tourisme en RD Congo
+                                {{$article->title}}
                             </span>
                          </div>
                          <div class="actulite-rec-card-content-desc">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, error! Aut, odio?</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas rerum deserunt blanditiis aliquid perferendis, doloremque praesentium.</p>
+                            {{Illuminate\Support\Str::limit($article->summary, 200)}}
                          </div>
                         
                        </div>
                      </a>
                   </div>
-
-                  <div class="actulite-rec-card">
-                    <a class="actulite-rec-card-link" href="">
-                      <div class="actulite-rec-card-img">
-                        <img class="actulite-rec-card-image" src="{{asset('/images/16280.jpg')}}" alt="">
-                      </div>
-                      <div class="actulite-rec-card-content">
-                        <div class="actulite-rec-card-content-meta">
-                           <span>
-                               <span><i class="fa-solid fa-circle-user"></i></span><span>Blaise Basombolie</span>
-                           </span>
-                           <span>Kinshasa, 30 Mars 2025</span>
-                        </div>
-                        <div class="actulite-rec-card-content-title">
-                           <span class="title_1">
-                               L'ONT et l'ANAPImain dans main pour la promotion du tourisme en RD Congo
-                           </span>
-                        </div>
-                        <div class="actulite-rec-card-content-desc">
-                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, error! Aut, odio?</p>
-                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas rerum deserunt blanditiis aliquid perferendis, doloremque praesentium.</p>
-                        </div>
-                       
-                      </div>
-                    </a>
-                 </div>
-
-                 <div class="actulite-rec-card">
-                    <a class="actulite-rec-card-link" href="">
-                      <div class="actulite-rec-card-img">
-                        <img class="actulite-rec-card-image" src="{{asset('/images/16280.jpg')}}" alt="">
-                      </div>
-                      <div class="actulite-rec-card-content">
-                        <div class="actulite-rec-card-content-meta">
-                           <span>
-                               <span><i class="fa-solid fa-circle-user"></i></span><span>Blaise Basombolie</span>
-                           </span>
-                           <span>Kinshasa, 30 Mars 2025</span>
-                        </div>
-                        <div class="actulite-rec-card-content-title">
-                           <span class="title_1">
-                               L'ONT et l'ANAPImain dans main pour la promotion du tourisme en RD Congo
-                           </span>
-                        </div>
-                        <div class="actulite-rec-card-content-desc">
-                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, error! Aut, odio?</p>
-                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas rerum deserunt blanditiis aliquid perferendis, doloremque praesentium.</p>
-                        </div>
-                       
-                      </div>
-                    </a>
-                 </div>
+               @endforeach
 
                </div>
             </div>
@@ -100,29 +51,28 @@
 
 
 {{-- 
-@foreach()
+@foreach($articles as $article)
 
 
                   <div class="actulite-rec-card">
-                     <a class="actulite-rec-card-link" href="">
+                     <a class="actulite-rec-card-link" href="{{ route('article.route', ['id' => $recommendedArticle->id, 'slug' => Illuminate\Support\Str::slug($recommendedArticle->title)])}}">
                        <div class="actulite-rec-card-img">
-                         <img class="actulite-rec-card-image" src="{{asset('/images/16280.jpg')}}" alt="">
+                         <img class="actulite-rec-card-image" src="{{asset($recommendedArticle->featured_image)}}" alt="">
                        </div>
                        <div class="actulite-rec-card-content">
                          <div class="actulite-rec-card-content-meta">
                             <span>
                                 <span><i class="fa-solid fa-circle-user"></i></span><span>Blaise Basombolie</span>
                             </span>
-                            <span>Kinshasa, 30 Mars 2025</span>
+                            <span>{{$recommendedArticle->publication_date}}</span>
                          </div>
                          <div class="actulite-rec-card-content-title">
                             <span class="title_1">
-                                L'ONT et l'ANAPImain dans main pour la promotion du tourisme en RD Congo
+                                {{$recommendedArticle->title}}
                             </span>
                          </div>
                          <div class="actulite-rec-card-content-desc">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, error! Aut, odio?</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas rerum deserunt blanditiis aliquid perferendis, doloremque praesentium.</p>
+                            {{$recommendedArticle->summary}}
                          </div>
                         
                        </div>

@@ -8,7 +8,7 @@
                     </span>
                 </div>
                 <div class="actulite-rec-top-desc">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus necessitatibus natus iure earum maiores quasi doloribus praesentium soluta vel veritatis. Laborum, dolor!</p>
+                    <p>Restez informé, restez en avance Bienvenue dans notre section des dernières nouvelles, où nous vous apportons des mises à jour essentielles, des analyses approfondies et des récits marquants.</p>
                 </div>
             </div>
             <div class="actulite-rec-bottom">
@@ -97,3 +97,35 @@
         </div>
     </div>
 </section>
+
+
+{{-- 
+@foreach()
+
+
+                  <div class="actulite-rec-card">
+                     <a class="actulite-rec-card-link" href="">
+                       <div class="actulite-rec-card-img">
+                         <img class="actulite-rec-card-image" src="{{asset('/images/16280.jpg')}}" alt="">
+                       </div>
+                       <div class="actulite-rec-card-content">
+                         <div class="actulite-rec-card-content-meta">
+                            <span>
+                                <span><i class="fa-solid fa-circle-user"></i></span><span>Blaise Basombolie</span>
+                            </span>
+                            <span>Kinshasa, 30 Mars 2025</span>
+                         </div>
+                         <div class="actulite-rec-card-content-title">
+                            <span class="title_1">
+                                L'ONT et l'ANAPImain dans main pour la promotion du tourisme en RD Congo
+                            </span>
+                         </div>
+                         <div class="actulite-rec-card-content-desc">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, error! Aut, odio?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas rerum deserunt blanditiis aliquid perferendis, doloremque praesentium.</p>
+                         </div>
+                        
+                       </div>
+                     </a>
+                  </div>
+@endforeach --}}

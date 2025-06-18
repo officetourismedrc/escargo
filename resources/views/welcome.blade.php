@@ -197,7 +197,7 @@
                   <div class="swiper-wrapper">
                     <div class="swiper-slide">
                       <video autoplay muted loop playsinline poster="{{ asset('/images/002.jpg') }}">
-                        <source src="{{ asset('/videos/track_1.mp4') }}" type="video/mp4">
+                        <source src="{{ asset('/videos/Sequence Slide RDC Generique - Kin.mp4') }}" type="video/mp4">
                       </video>
                       <div class="slide-content">
                         <div class="slide-caption">
@@ -208,7 +208,7 @@
                     </div>
                     <div class="swiper-slide">
                       <video autoplay muted loop playsinline poster="{{ asset('/images/010.jpg') }}">
-                        <source src=" {{ asset('/videos/Lighthouse.mp4')}}"   type="video/mp4">
+                        {{-- <source src=" {{ asset('/videos/track/track_2.mp4')}}"   type="video/mp4"> --}}
                       </video>
                       <div class="slide-content">
                         <div class="slide-caption">

@@ -14,7 +14,7 @@
                                 <p> Promotion et développement du tourisme en mettant en valeur ses richesses culturelles et naturelles...</p>
                             </div>
                             <div class="article-is_vp">
-                               <a href="{{route('page.sub.route',['id'=>4])}}" style="display:inline-block;"> <span>voir plus</span><span><i class="fa-solid fa-chevron-right"></i></span></a>
+                               <a href="{{route('page.sub.route',['id'=>4])}}"> <span>voir plus</span><span><i class="fa-solid fa-chevron-right"></i></span></a>
                             </div>
                         </div>
                     </article>

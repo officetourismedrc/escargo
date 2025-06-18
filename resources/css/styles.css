@@ -2669,6 +2669,10 @@ justify-items: left;
 .article_is-bottom .article-is_vp{
   display: flex;
 }
+.article_is-bottom .article-is_vp a{
+
+  display: flex;
+}
 
 
     /* =====end about us ============== */

@@ -236,7 +236,7 @@
     @include('components.sections.mot-de-madame')
         <!-- ===== à propos de nous ======= -->
 
-     @include('components.sections.statistiques-tourisme')
+     {{-- @include('components.sections.statistiques-tourisme') --}}
          <!-- ==== projects ====================== -->
 
       @include('components.sections.nos-projets')

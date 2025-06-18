@@ -10,7 +10,7 @@
                             <span class="title_1">Qui sommes nous ?</span>
                         </div>
                         <div class="contact_desc">
-                            <p>L’Office National du Tourisme est l’organisme officiel chargé de promouvoir et de valoriser l’image touristique de notre pays.
+                            <p>L’Office National du Tourisme est l’organe officiel chargé de promouvoir et de valoriser l’image touristique de notre pays.
 Notre mission est de développer l’offre touristique, d’encourager les investissements dans le secteur, et de faire rayonner nos richesses culturelles, naturelles et patrimoniales à l’échelle nationale et internationale
 Nous travaillons en collaboration avec les acteurs publics et privés du tourisme pour créer une expérience authentique, attractive et durable pour les visiteurs
 L’Office incarne l’engagement de notre pays à faire du tourisme un levier de croissance économique et de valorisation culturelle.</p>

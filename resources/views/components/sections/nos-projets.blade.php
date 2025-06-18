@@ -5,7 +5,7 @@
             <div class="content content-projects">
                <div class="projects-description">
                   <div class="project-title"><span>Nos Projets</span></div>
-                  <div class="project-desc"><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem Pariatur nihil voluptate ipsum quasi, illo vel! Illo repellat quod ipsum incidunt modi.</span></div>
+                  <div class="project-desc"><span>Ils sont des initiatives stratégiques, véritables leviers d’innovation. Ils structurent nos actions entre institutions, assurent transparence et efficacité, et évidement catalysent le développement durable du secteur du tourisme. Chaque projet contribue à faire de la RDC une référence mondiale en tourisme.</span></div>
                </div>
 
                 <div class="project-cards">

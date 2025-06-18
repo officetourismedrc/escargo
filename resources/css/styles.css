@@ -57,7 +57,7 @@
 
     /* ========font-family */
 
-    --body-font: "Inter", sans-serif;
+    --body-font: "poppins","Inter", sans-serif;
     --second-font:"Montserrat", sans-serif;
 
     /* ======marquee section ============  */
@@ -996,7 +996,7 @@ display: none;
     color:var(--body-color);
     font-size: 1rem;
     font-weight: 300;
-    line-height: 1.2rem;
+    line-height: 1.3rem;
   }
   .contact_button{
     justify-self: left;
@@ -1164,6 +1164,8 @@ display: none;
      color: var(--body-color);
      font-size: .8rem;
      font-weight: 400;
+
+     
      
    }
 
@@ -2863,6 +2865,7 @@ justify-items: left;
     color: var(--body-color);
     font-size: 1rem;
     font-weight: 400;
+    line-height: 1.3rem;
   }
 
   .vm_items_container .title_1{

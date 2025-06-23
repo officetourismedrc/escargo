@@ -5,7 +5,7 @@
             <div class="content content-projects">
                <div class="projects-description">
                   <div class="project-title"><span>Nos Projets</span></div>
-                  <div class="project-desc"><span>Ils sont des initiatives stratégiques, véritables leviers d’innovation. Ils structurent nos actions entre institutions, assurent transparence et efficacité, et évidement catalysent le développement durable du secteur du tourisme. Chaque projet contribue à faire de la RDC une référence mondiale en tourisme.</span></div>
+                  <div class="project-desc"><span>Ils sont des initiatives stratégiques, véritables leviers d’innovation. <br> Ils structurent nos actions entre institutions, assurent transparence et efficacité, et évidement catalysent le développement durable du secteur du tourisme. Chaque projet contribue à faire de la RDC une référence mondiale en tourisme.</span></div>
                </div>
 
                 <div class="project-cards">
@@ -19,7 +19,7 @@
                                 </span>
                             </div>
                             <div>
-                                <div class="project-card-desc-title"><span>Tourismes dans les aires protegées en RDC</span></div>
+                                <div class="project-card-desc-title"><span>Forgec, forgec</span></div>
                                 <div class="projects-card-desc-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus enim facilis autem cumque exercitationem ipsam quis magni at, eveniet repudiandae?</div>
                                 <div class="projects-card-desc-button"><button class="projects-button"><span>Voir plus</span><span>icon</span></button></div>
                             </div>
@@ -36,7 +36,7 @@
                                 </span>
                             </div>
                             <div>
-                                <div class="project-card-desc-title"><span>Tourismes dans les aires protegées en RDC</span></div>
+                                <div class="project-card-desc-title"><span>Numerization</span></div>
                                 <div class="projects-card-desc-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus enim facilis autem cumque exercitationem ipsam quis magni at, eveniet repudiandae?</div>
                                 <div class="projects-card-desc-button"><button class="projects-button"><span>Voir plus</span><span>icon</span></button></div>
                             </div>
@@ -53,7 +53,7 @@
                                 </span>
                             </div>
                             <div>
-                                <div class="project-card-desc-title"><span>Tourismes dans les aires protegées en RDC</span></div>
+                                <div class="project-card-desc-title"><span>Maison de tourisme</span></div>
                                 <div class="projects-card-desc-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus enim facilis autem cumque exercitationem ipsam quis magni at, eveniet repudiandae?</div>
                                 <div class="projects-card-desc-button"><button class="projects-button"><span>Voir plus</span><span>icon</span></button></div>
                             </div>
@@ -70,7 +70,7 @@
                                 </span>
                             </div>
                             <div>
-                                <div class="project-card-desc-title"><span>Tourismes dans les aires protegées en RDC</span></div>
+                                <div class="project-card-desc-title"><span>Centre de formation</span></div>
                                 <div class="projects-card-desc-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus enim facilis autem cumque exercitationem ipsam quis magni at, eveniet repudiandae?</div>
                                 <div class="projects-card-desc-button"><button class="projects-button"><span>Voir plus</span><span>icon</span></button></div>
                             </div>

@@ -23,7 +23,7 @@ L’Office incarne l’engagement de notre pays à faire du tourisme un levier d
                         <div class="back-cover_contact-right">
 
                         </div>
-                        <img src="{{ Vite::asset('resources/images/Logos/ONT6.svg') }}" alt="" class="contacts_right-img">
+                        <img src="{{ Vite::asset('resources/images/Logos/ONT6.svg') }}" alt="Vu du ciel des collines de masisi et du paysage du territoire du Masisi; Masisi, Nord-Kivu, RD Congo" class="contacts_right-img">
 
                        
                     </div>

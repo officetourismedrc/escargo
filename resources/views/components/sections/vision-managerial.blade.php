@@ -1,5 +1,5 @@
   <!-- start section vision manageriale -->
-             <section class="section vm_section">
+             <section class="section vm_section" role="img" aria-label="Bonobo espiègle dans la réserve de Lola, incarnant la biodiversité africaine.">
                 <div class="container vm_container">
                     <div class="content vm_content">
                         <div class="vm_desc_top">

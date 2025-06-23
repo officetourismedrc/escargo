@@ -25,7 +25,7 @@
                           </div>
                       </div>
                       <div class="actu-left_img">
-                         <img src="{{ asset('/images/articles-images/imagesOuYPstREPgloF9DdNtP2d1fyArp2gc9PCLnT2zAb.webp') }}" alt="" class="actu-left_image">
+                         <img src="{{ asset('/images/articles-images/imagesOuYPstREPgloF9DdNtP2d1fyArp2gc9PCLnT2zAb.webp') }}" alt="Cheikha Al Nowais, ONU tourisme" class="actu-left_image">
                       </div>
                    </div>
                    <div class="actu-item actu-right">

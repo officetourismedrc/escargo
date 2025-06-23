@@ -181,7 +181,7 @@
                         </di>
                     </div>
                     <div class="open-menu">
-                        <span><img src="{{ asset('/images/icons/menu-burger-white.png ') }}" alt=""></span>
+                        <span><img src="{{ asset('/images/icons/menu-burger-white.png ') }}" alt="burger menu icon"></span>
                     </div>
                    </div>
               </div>        </div>
@@ -202,7 +202,7 @@
                       <div class="slide-content">
                         <div class="slide-caption">
                           <h2>Le Fleuve Congo</h2>
-                          <p>Majestueux ruban d'argent serpentant à travers la foret trôpical, le fleuve Congo est une symphonie de vie.</p>
+                          <p>Kinshasa, perle africaine, vibre grâce à sa musique vivante, légendaire et sa rumba exaltante; festivals, fleuve majestueux, marchés colorés et son art audacieux sculpte l'essence.</p>
                         </div>
                       </div>
                     </div>

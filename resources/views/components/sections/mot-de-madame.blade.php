@@ -6,7 +6,7 @@
             <div class="container container_about-us">
                 <div class="content content_about-us">
                      <div class="about-us_left">
-                        <img src="{{ asset('/images/portrait-madame-dg.jpeg') }}" alt="" class="about-us-photo">
+                        <img src="{{ asset('/images/portrait-madame-dg.jpeg') }}" alt="madame le directeur générale de l'office national du tourisme de la rd congo" class="about-us-photo">
                      </div>
                      <div class="about-us_right">
                          <div class="about-us_title">

@@ -1365,10 +1365,15 @@ display: none;
   row-gap: 3rem;
 }
 .actu-left{
-  display: grid;
+  
   row-gap: 1rem;
   align-items: start;
   align-content: start;
+
+
+  display: flex;
+  flex-direction: column;
+  column-gap: 1rem;
 }
 .actu-left_title{
   display: grid;
@@ -1390,6 +1395,7 @@ justify-items: left;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
   /* padding-right: 2rem; */
 }
 .actu-meta_author{
@@ -1408,10 +1414,11 @@ justify-items: left;
   
 }
 .actu-left_img{
- 
+ flex-grow: 1;
 }
 .actu-left_image{
   width: 100%;
+  height: 100%;
   object-fit: cover;
   height: 55vh;
   border-radius: 1.5rem;
@@ -1423,10 +1430,11 @@ justify-items: left;
   width: 100%;
   display: grid;
   row-gap: 1rem;
-  
+  align-items: stretch;
+  align-content: stretch;
 }
 .actu-right_content{
-  transform: translateY(-1rem);
+  
 }
 .actu-right_items{
   display: flex;
@@ -2281,6 +2289,77 @@ justify-items: left;
 
 /* =====end footer ================ */
 
+/* events  */
+
+.section-event{
+  width: 100vw;
+  height: 100vh;
+
+  overflow: hidden;
+}
+
+.event-container{
+  width: 100%;
+  height: 100%;
+  display: grid;
+
+  row-gap: 2rem;
+
+  justify-content: center;
+  justify-items: center;
+
+}
+.events-section-title{
+  font-size: 2rem;
+  font-family: var(--body-font);
+  font-weight: 800;
+}
+
+.event-content{
+  width: 100%;
+  
+}
+
+
+.event-accordions {
+  display: flex;
+  column-gap: 2rem;
+  column-gap: 2rem;
+  width: 80vw;
+  height: 100vh;
+  overflow: hidden;
+  border-radius: 20px;
+  transition: flex-direction 0.5s ease;
+}.panel {
+  flex: 1;
+  background: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  border-radius: 20px;
+}.panel.active {
+  flex: 7;
+  background: #8AC6D1
+;
+}@media (max-width: 500px) {
+  .event-accordions {
+    flex-direction: column;
+    height: 100vh;
+    width: 90vw;
+  }  .panel {
+    height: 10%;
+    width: 100%;
+  }  .panel.active {
+    height: 70%;
+    width: 100%;
+  }
+}
+
+
+/* accordion events */
+
 
 @media  screen and (min-width:305px) {
 /* ====== words of madame dg ======= */
@@ -3034,8 +3113,8 @@ justify-items: left;
       padding-right: 3rem;
     }
     .partennaires-item{
-      width: 80px;
-      height: 80px;
+      width: 100px;
+      height: 100px;
       display: flex;
       align-items: center;
       justify-content: center;

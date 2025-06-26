@@ -244,8 +244,13 @@
      <!-- ======end projects ================== -->
 
 
+{{--  <!-- nos event -->  --}}
 
-       
+
+         {{-- @include('components.sections.events')  --}}
+
+
+   {{--  <!-- end nos event -->  --}} 
 
         <!-- ======section contacts =========== -->
 @include('components.sections.qui-sommes-nous')

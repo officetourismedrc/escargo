@@ -581,6 +581,29 @@ gsap.fromTo(gridGlobeContainer,
 
 }
 
+if(document.querySelector('.section-event') !==  null){
+  const panels = document.querySelectorAll('.panel');
+
+  panels.forEach(panel => {
+    panel.addEventListener('click', () => {
+      panels.forEach(p => p.classList.remove('active'));
+      panel.classList.add('active');
+
+      const isVertical = window.innerWidth < 500;
+      panels.forEach(p => {
+        gsap.to(p, {
+          flexBasis: p.classList.contains('active') ? '67%' : '10%',
+          height: isVertical ? (p.classList.contains('active') ? "70%" : "10%") : "100%",
+          duration: 0.6,
+          ease: "power2.out"
+        });
+      });
+    });
+  });
+
+
+}
+
 
 
 

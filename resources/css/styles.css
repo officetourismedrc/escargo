@@ -2231,7 +2231,7 @@ justify-items: left;
       transform: translateX(-50%);
   }
   .top-footer-item-img{
-    width: 70px;
+    width: 150px;
     transform: translateY(-1rem);
   }
   .top-footer-items{

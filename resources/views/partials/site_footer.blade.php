@@ -44,15 +44,15 @@
                      </div>
                      <div class="top-footer-item">
                          <div class="top-footer-links">
-                           <a href="tourismerdc.cd" class="top-footer-link">Office National du Tourisme</a>
+                           <a href="https://tourismerdc.cd/" target="_blank" class="top-footer-link">Offre Touristique</a>
                          </div>
 
                          <div class="top-footer-links">
-                            <a href="portail.officetourisme.cd" class="top-footer-link">Portail Numerique</a>
+                            <a href="https://portail.officetourisme.cd/" target="_blank" class="top-footer-link">Portail Numerique</a>
                          </div>
 
                          <div class="top-footer-links">
-                            <a href="52-52.officetourisme.cd" class="top-footer-link">52-52</a>
+                            <a href="https://52-52.officetourisme.cd/" target="_blank" class="top-footer-link">52-52</a>
                          </div>
 
                          <div class="top-footer-links">
@@ -75,12 +75,18 @@
                             <a href="" class="top-footer-link">+243 973524123</a>
                           </div>
                          <div class="top-footer-links">
-                           <a href="" class="top-footer-link">16, colonel Lukusa Gombe/Kin R.D Congo</a>
+                           <a href="" class="top-footer-link">16, colonel Lukusa Gombe/Kin R.D Congo, B.P 0012 Kinshasa</a>
                          </div>
 
                          <div class="top-footer-links">
-                           <a href="" class="top-footer-link">B.P 0012 Kinshasa</a>
+                           <a href="" class="top-footer-link"></a>
                          </div>
+
+                         <div class="top-footer-links">
+                           <a href="https://www.facebook.com/share/15nniVBRbD/?mibextid=wwXIfr">  <span><i class="fa-brands fa-facebook-f"></i></span></a>
+                           <a href="https://x.com/congordtourism?s=11"> <span><i class="fa-brands fa-x-twitter"></i></span></a> 
+                            <a href="https://www.instagram.com/info_tourisme_rdcongo1?igsh=YWsxYTc2OGdod29t">  <span><i class="fa-brands fa-instagram"></i></span></a>
+                        </div>
 
                          
                      </div>
@@ -88,19 +94,19 @@
 
                 </div>
                 <div class="bottom-footer">
-                    <div class="footer-bottom-items" style='display:flex; flex-direction:column; justify-content:left; align-items:center;'>
-                       <span class="footer-bottom-link">Powered by Office National du Tourisme</span>
-                       <span class="footer-bottom-link">Copyright 2025, all right reserved</span>
+                  <div class="footer-bottom-items" style='display:flex; flex-direction:column; justify-content:left; align-items:center;'>
+                     <a href="" class="footer-bottom-link" style='text-align:left'>Politiques de confidentialité</a>
+                     
                     </div>
                     <div class="footer-bottom-items" style='display:flex; flex-direction:column; justify-content:left; align-items:center;'>
-                     <a href="" class="top-footer-link">Politiques de confidentialité</a>
-                     <a href="" class="top-footer-link">Condition générales</a>
+                       <span class="footer-bottom-link" style='text-align:left' >Powered by Office National du Tourisme</span>
+                       <span class="footer-bottom-link" style='text-align:left'>Copyright 2025, all right reserved</span>
                     </div>
-                    <div class="footer-bottom-items">
-                       <a href="https://www.facebook.com/share/15nniVBRbD/?mibextid=wwXIfr">  <span><i class="fa-brands fa-facebook-f"></i></span></a>
-                      <a href="https://x.com/congordtourism?s=11"> <span><i class="fa-brands fa-x-twitter"></i></span></a> 
-                        <a href="https://www.instagram.com/info_tourisme_rdcongo1?igsh=YWsxYTc2OGdod29t">  <span><i class="fa-brands fa-instagram"></i></span></a>
+                    <div class="footer-bottom-items" style='display:flex; flex-direction:column; justify-content:left; align-items:center;'>
+                     
+                     <a href="" class="footer-bottom-link" style='text-align:left'>Condition générales</a>
                     </div>
+                    
                 </div>
             </div>
         </div>

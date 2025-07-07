@@ -582,7 +582,7 @@ gsap.fromTo(gridGlobeContainer,
 }
 
 if(document.querySelector('.section-event') !==  null){
-  const panels = document.querySelectorAll('.panel');
+  const panels = document.querySelectorAll('.event-panel');
 
   panels.forEach(panel => {
     panel.addEventListener('click', () => {
@@ -595,7 +595,7 @@ if(document.querySelector('.section-event') !==  null){
           flexBasis: p.classList.contains('active') ? '67%' : '10%',
           height: isVertical ? (p.classList.contains('active') ? "70%" : "10%") : "100%",
           duration: 0.6,
-          ease: "power2.out"
+          ease: "elastic(1, 0.6)"
         });
       });
     });

@@ -117,14 +117,16 @@
          <div class="nav">
              <div class="nav-top">
                 <div class="nav-top_left">
-                    <span>ontRDC@officetourisme.com</span>
-                    <span>+243 991785496</span>
+                    <span>info@officetourismerdc.cd</span>
+                    <span>+243 973524123</span>
                     
                 </div>
                 <div class="nav-top_right">
-                    <span><i class="fa-brands fa-facebook-f"></i></span>
-                    <span><i class="fa-brands fa-x-twitter"></i></span>
-                    <span><i class="fa-brands fa-instagram"></i></span>
+                    <span><a href="https://www.facebook.com/share/15nniVBRbD/?mibextid=wwXIfr"><i class="fa-brands fa-facebook-f"></i></a></span>
+                    
+                    <span><a href="https://www.instagram.com/info_tourisme_rdcongo1?igsh=YWsxYTc2OGdod29t"><i class="fa-brands fa-instagram"></i></a></span>
+
+                    <span><a href="https://x.com/congordtourism?s=11"></a><i class="fa-brands fa-x-twitter"></i></span>
                 </div>
              </div>
              <div class="nav-bottom">
@@ -133,10 +135,24 @@
                         <div class="mobile-menu-icons-top">
 
                             <div class="mobile-menu-icons-container-top">
-                                 <span class="mm-icon"><i class="fa-brands fa-square-facebook"></i></span>
-                                 <span class="mm-icon"><i class="fa-brands fa-square-instagram"></i></span>
-                                 <span class="mm-icon"><i class="fa-brands fa-linkedin"></i></span>
-                                 <span class="mm-icon"><i class="fa-brands fa-square-x-twitter"></i></span>
+                                 <span class="mm-icon">
+                                  <a href="https://www.facebook.com/share/15nniVBRbD/?mibextid=wwXIfr"><i class="fa-brands fa-square-facebook"></i></a>
+                                </span>
+                                 <span class="mm-icon">
+                                  <a href="https://www.instagram.com/info_tourisme_rdcongo1?igsh=YWsxYTc2OGdod29t">
+                                   <i class="fa-brands fa-square-instagram"></i>
+                                  </a>
+                                </span>
+                                 <span class="mm-icon">
+                                  <a href="https://www.linkedin.com/in/office-national-du-tourisme-rdc-919647274?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+                                  <i class="fa-brands fa-linkedin"></i>
+                                  </a>
+                                </span>
+                                 <span class="mm-icon">
+                                  <a href="https://x.com/congordtourism?s=11">
+                                  <i class="fa-brands fa-square-x-twitter"></i>
+                                  </a>
+                                </span>
                             </div>
 
                             <div class="close-menu">
@@ -169,8 +185,8 @@
                         <div class="mobile-menu-icons-bottom">
 
                             <div class="mobile-menu-icons-container-bottom">
-                                 <span class="mm-info"><span><i class="fa-solid fa-envelope"></i></span><span>jkkjkkas@gmail.com</span></span>
-                                 <span class="mm-info"><span><i class="fa-solid fa-phone"></i></span><span>00243 997600000</span></span>
+                                 <span class="mm-info"><span><i class="fa-solid fa-envelope"></i></span><span>info@tourismerdc.cd</span></span>
+                                 <span class="mm-info"><span><i class="fa-solid fa-phone"></i></span><span>+243 973524123</span></span>
                             </div>
                         </div>
                         <!-- mobile only section -->

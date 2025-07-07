@@ -36,7 +36,7 @@
     "src": "public/images/zongo4.webp"
   },
   "resources/css/app.css": {
-    "file": "assets/app-G2PAq33z.css",
+    "file": "assets/app-DKAkgpaB.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
@@ -57,7 +57,7 @@
     "src": "resources/images/Paysage_du_territoire_de_Masisi.jpg"
   },
   "resources/js/app.js": {
-    "file": "assets/app-B_Oh3NBb.js",
+    "file": "assets/app-D8HrXKil.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
@@ -73,7 +73,7 @@
     "isEntry": true
   },
   "resources/js/script.js": {
-    "file": "assets/script-D5MuQEvL.js",
+    "file": "assets/script-B716wya7.js",
     "name": "script",
     "src": "resources/js/script.js",
     "isEntry": true,

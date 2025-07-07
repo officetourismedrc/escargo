@@ -122,7 +122,7 @@
                  <div class="nav-top">
                     <div class="nav-top_left">
                         <span>info@tourismerdc.cd</span>
-                        <span>+243 991785496</span>
+                        <span></span>
                         
                     </div>
                     <div class="nav-top_right">
@@ -173,8 +173,8 @@
                             <div class="mobile-menu-icons-bottom">
 
                                 <div class="mobile-menu-icons-container-bottom">
-                                     <span class="mm-info"><span><i class="fa-solid fa-envelope"></i></span><span>jkkjkkas@gmail.com</span></span>
-                                     <span class="mm-info"><span><i class="fa-solid fa-phone"></i></span><span>00243 997600000</span></span>
+                                     <span class="mm-info"><span><i class="fa-solid fa-envelope"></i></span><span>info@tourismerdc.cd</span></span>
+                                     <span class="mm-info"><span><i class="fa-solid fa-phone"></i></span><span>+243 973524123</span></span>
                                 </div>
                             </div>
                             <!-- mobile only section -->
@@ -247,7 +247,7 @@
 {{--  <!-- nos event -->  --}}
 
 
-         {{-- @include('components.sections.events')  --}}
+         @include('components.sections.events') 
 
 
    {{--  <!-- end nos event -->  --}} 

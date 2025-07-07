@@ -9,7 +9,7 @@
                        <span class="title_1"></span>
                     </div>
                     <div class="top-footer-item">
-                        <img class="top-footer-item-img" src="{{ Vite::asset('resources/images/Logos/ONT3.png') }}" alt="">
+                        <img class="top-footer-item-img" src="{{ Vite::asset('resources/images/Logos/ONT6.svg') }}" alt="logo office national du tourisme rdc">
 
                        
                     </div>
@@ -44,15 +44,15 @@
                      </div>
                      <div class="top-footer-item">
                          <div class="top-footer-links">
-                           <a href="" class="top-footer-link">Office National du Tourisme</a>
+                           <a href="tourismerdc.cd" class="top-footer-link">Office National du Tourisme</a>
                          </div>
 
                          <div class="top-footer-links">
-                           <a href="" class="top-footer-link">Politiques de confidentialité</a>
+                            <a href="portail.officetourisme.cd" class="top-footer-link">Portail Numerique</a>
                          </div>
 
                          <div class="top-footer-links">
-                           <a href="" class="top-footer-link">Condition générales</a>
+                            <a href="52-52.officetourisme.cd" class="top-footer-link">52-52</a>
                          </div>
 
                          <div class="top-footer-links">
@@ -68,11 +68,11 @@
                      <div class="top-footer-item">
 
                         <div class="top-footer-links">
-                            <a href="" class="top-footer-link">officetourisme@officetourisme.cd</a>
+                            <a href="" class="top-footer-link">info@officetourismerdc.cd</a>
                           </div>
 
                           <div class="top-footer-links">
-                            <a href="" class="top-footer-link">+243 9927654795</a>
+                            <a href="" class="top-footer-link">+243 973524123</a>
                           </div>
                          <div class="top-footer-links">
                            <a href="" class="top-footer-link">16, colonel Lukusa Gombe/Kin R.D Congo</a>
@@ -88,11 +88,13 @@
 
                 </div>
                 <div class="bottom-footer">
-                    <div class="footer-bottom-items">
+                    <div class="footer-bottom-items" style='display:flex; flex-direction:column; justify-content:left; align-items:center;'>
                        <span class="footer-bottom-link">Powered by Office National du Tourisme</span>
+                       <span class="footer-bottom-link">Copyright 2025, all right reserved</span>
                     </div>
-                    <div class="footer-bottom-items">
-                     <span class="footer-bottom-link">Copyright 2025, all right reserved</span>
+                    <div class="footer-bottom-items" style='display:flex; flex-direction:column; justify-content:left; align-items:center;'>
+                     <a href="" class="top-footer-link">Politiques de confidentialité</a>
+                     <a href="" class="top-footer-link">Condition générales</a>
                     </div>
                     <div class="footer-bottom-items">
                        <a href="https://www.facebook.com/share/15nniVBRbD/?mibextid=wwXIfr">  <span><i class="fa-brands fa-facebook-f"></i></span></a>

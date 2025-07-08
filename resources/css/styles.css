@@ -1568,7 +1568,7 @@ justify-items: left;
       font-size: .7rem;
       display: inline-block;
       line-height: 1rem;
-      letter-spacing: .5px;
+      
     }
 
     .project-cards{
@@ -1641,11 +1641,20 @@ justify-items: left;
       transition: opacity .4s ease-in;
 
     }
-    .project-card-desc div:nth-child(1){
+    .project-card-desc .project-card-desc-icon-container{
        align-self: start;
        display: grid;
        justify-content: right;
        justify-items: right;
+       align-items: start;
+       align-content: start;
+
+    }
+     .project-card-desc .project-card-desc-container{
+       align-self: start;
+       display: grid;
+       justify-content: left;
+       justify-items: left;
        align-items: start;
        align-content: start;
 

@@ -9,42 +9,46 @@
                </div>
 
                 <div class="project-cards">
-                    <div class="project-article-card">
-                        <div class="card-img"><div><img src="{{ asset('/images/valeur3.jpg') }}" alt="" class="img-projects"></div></div>
-
-                        <div class="project-card-desc">
-                            <div>
-                                <span class="project-card-desc_icon">
-                                    <img src="{{ asset('/images/Vectors/fleche-droite.svg ') }}" alt="">
-                                </span>
-                            </div>
-                            <div>
-                                <div class="project-card-desc-title"><span>Forgec, forgec</span></div>
-                                <div class="projects-card-desc-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus enim facilis autem cumque exercitationem ipsam quis magni at, eveniet repudiandae?</div>
-                                <div class="projects-card-desc-button"><button class="projects-button"><span>Voir plus</span><span>icon</span></button></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="project-article-card">
-                        <div class="card-img"><img src="{{ asset('/images/valeur3.jpg ') }}" alt="" class="img-projects"></div>
-
-                        <div class="project-card-desc">
-                            <div>
-                                <span class="project-card-desc_icon">
-                                    <img src="{{ asset('/images/Vectors/fleche-droite.svg ') }}" alt="">
-                                </span>
-                            </div>
-                            <div>
-                                <div class="project-card-desc-title"><span>Numerization</span></div>
-                                <div class="projects-card-desc-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus enim facilis autem cumque exercitationem ipsam quis magni at, eveniet repudiandae?</div>
-                                <div class="projects-card-desc-button"><button class="projects-button"><span>Voir plus</span><span>icon</span></button></div>
-                            </div>
-                        </div>
-                    </div>
 
                     <div class="project-article-card">
                         <div class="card-img"><img src="{{ asset('/images/valeur3.jpg') }}" alt="" class="img-projects"></div>
+
+                        <div class="project-card-desc">
+                            <div>
+                                <span class="project-card-desc_icon">
+                                    <img src="{{ asset('/images/Vectors/fleche-droite.svg') }}" alt="">
+                                </span>
+                            </div>
+                            <div>
+                                <div class="project-card-desc-title"><span>Fogec</span></div>
+                                <div class="projects-card-desc-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus enim facilis autem cumque exercitationem ipsam quis magni at, eveniet repudiandae?</div>
+                                <div class="projects-card-desc-button"><button class="projects-button"><span>Voir plus</span><span>icon</span></button></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="project-article-card">
+                        <div class="card-img"><div><img src="{{ asset('/images/immr.jpg') }}" alt="" class="img-projects"></div></div>
+
+                        <div class="project-card-desc">
+                            <div>
+                                <span class="project-card-desc_icon">
+                                    <img src="{{ asset('/images/Vectors/fleche-droite.svg ') }}" alt="">
+                                </span>
+                            </div>
+                            <div>
+                                <div class="project-card-desc-title"><span>Numérisation</span></div>
+                                <div class="projects-card-desc-desc">La numérisation transforme le tourisme en facilitant la planification, la réservation et l’expérience via smartphones et plateformes connectées.</div>
+                                <div class="projects-card-desc-button"><button class="projects-button"><span>Voir plus</span><span>icon</span></button></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+                    <div class="project-article-card">
+                        <div class="card-img"><img src="{{ asset('/images/Maison.jpg') }}" alt="" class="img-projects"></div>
 
                         <div class="project-card-desc">
                             <div>

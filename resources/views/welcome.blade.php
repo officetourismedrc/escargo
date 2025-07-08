@@ -247,7 +247,7 @@
 {{--  <!-- nos event -->  --}}
 
 
-         @include('components.sections.events') 
+   {{--       @include('components.sections.events') --}}
 
 
    {{--  <!-- end nos event -->  --}} 

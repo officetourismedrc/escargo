@@ -17,12 +17,15 @@ class Nav extends Component
     public function __construct()
     {
         //
-        $this->menuData = DB::table('menu_principals')->get();
+        $this->menuData = DB::table('menu_principals')
+                           ->orderBy('menu_principals.order', 'desc') 
+                           ->get();
 
                 foreach ($this->menuData as $key => $value) {
                    $value->sub = DB::table('sub_menus as sm')
-                                              ->where('sm.menu_principal_id','=',$value->id)
-                                              ->get();
+                                    ->where('sm.menu_principal_id', '=', $value->id)
+                                    ->orderBy('sm.order', 'desc')     // ← sort ascending by your `order` column
+                                    ->get();
                 }
 
     }

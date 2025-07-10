@@ -37,11 +37,12 @@ class TestController extends Controller
 
                 foreach ($menudata as $key => $value) {
                    $value->sub = DB::table('sub_menus as sm')
-                                              ->where('sm.menu_principal_id','=',$menudata[$key]->id)
-                                              ->get();
+                                    ->where('sm.menu_principal_id', '=', $value->id)
+                                    ->orderBy('sm.order', 'desc')     // ← sort ascending by your `order` column
+                                    ->get();
                 }
 
-        $articles = Articles::take()->get();
+        // $articles = Articles::take()->get();
  
 
         return $menudata;

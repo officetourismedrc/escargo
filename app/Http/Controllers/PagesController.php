@@ -24,7 +24,7 @@ class PagesController extends Controller
       public function showSub(Request $request){
 
         try {
-            $article = SubMenu::findOrFail($request->id);
+            $article = SubMenu::findOrFail($request->id); 
             return view($article->address);
         } catch (\Illuminate\Database\Eloquent\ModelNotFoundException $e) {
             // return response()->view('errors.article_not_found', [], 404);

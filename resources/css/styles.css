@@ -75,6 +75,9 @@
     --marquee-container-width: 100vw;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
 
 *{
     box-sizing: border-box;
@@ -861,6 +864,36 @@ display: none;
    border-radius: 50%;
 }
 
+.article-is_vp{
+  display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: .5rem 1rem;
+      border-radius: 1rem;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.115);
+      /* background-color: transparent; */
+      backdrop-filter: blur(2px);
+}
+
+.article-is_vp:hover{
+
+   color:white;
+      background-color: #24a19d;
+      /* background-color: transparent; */
+      backdrop-filter: none;
+}
+.article_is:nth-child(1) .article-is_vp:hover {
+   background-color: #24a19d;
+}
+.article_is:nth-child(2) .article-is_vp:hover {
+   background-color: #1D71A0;
+}
+.article_is:nth-child(3) .article-is_vp:hover {
+   background-color: #264653;
+}
+
+  
 
 
 /* ======= about us ================ */
@@ -990,6 +1023,9 @@ display: none;
   .contact_desc{
     font-family: var(--body-font);
     padding-right: 3rem;
+
+    display: grid;
+    row-gap: 1rem;
   }
   .contact_desc p{
     font-family: var(--body-font);
@@ -1553,7 +1589,7 @@ justify-items: left;
       font-family: var(--second-font);
       font-size: 2.1rem;
       font-weight: 700;
-      letter-spacing: 1.5px;
+      
       color: #114499;
       display: inline-block;
     }
@@ -1664,6 +1700,7 @@ justify-items: left;
       display: grid;
       row-gap: 1rem;
       align-content: end;
+      align-self: end;
     }
 
     .project-card-desc div:nth-child(1) .project-card-desc_icon{
@@ -1721,15 +1758,29 @@ justify-items: left;
       padding: .5rem 1rem;
       border-radius: 1rem;
       width: 100%;
-      background-color: whitesmoke;
+      background-color: rgba(245, 245, 245, 0.115);
+      /* background-color: transparent; */
+      backdrop-filter: blur(2px);
+
+      
     }
     .projects-button span{
       font-family: var(--second-font);
-      color: var(--text-color);
+      color: white;
       font-weight: 500;
       display: inline-block;
       font-size: .9rem;
     }
+    .projects-button:hover{
+      color:black;
+      background-color: #24a19d;
+      /* background-color: transparent; */
+      backdrop-filter: none;
+    }
+    
+     .projects-button span:nth-child(2){
+      font-size: 2rem;
+     }
 
 /* =========projets projets ========================= */
 
@@ -1863,8 +1914,8 @@ justify-items: left;
 
 #globeCanvas{
   display: block;
-  width: 50%;
-  height: 50%;
+  width: 400px;
+  height: 400px;
 }
 /* ========end globe section ========== */
 
@@ -2906,12 +2957,13 @@ justify-items: left;
       color:var(--body-color);
       font-size: 2.5rem;
       font-family: var(--second-font);
+      line-height: 2.5rem;
     }
     .contact_desc p{
       font-family: var(--body-font);
       color:var(--body-color);
       font-size: 1rem;
-      font-weight: 300;
+      font-weight: 400;
       line-height: 1.2rem;
     }
     .contacts_left{
@@ -2966,6 +3018,7 @@ justify-items: left;
 
     .vm_desc_top .title_1{
       font-size: 2.5rem;
+      line-height: 2.8rem;
    }
 
    .vm_desc_top p{
@@ -3101,7 +3154,7 @@ justify-items: left;
       
       font-size: 2.7rem;
       font-weight: 700;
-      letter-spacing: 3px;
+      
       
     }
     .project-desc span{

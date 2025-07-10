@@ -41,7 +41,7 @@
                    <div class="top-footer-items">
                      <div class="top-footer-title">
                         <span class="title_1">Liens utiles</span>
-                     </div>
+                     </div> 
                      <div class="top-footer-item">
                          <div class="top-footer-links">
                            <a href="https://tourismerdc.cd/" target="_blank" class="top-footer-link">Offre Touristique</a>

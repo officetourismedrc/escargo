@@ -44,7 +44,7 @@
                         <span class="number" data-start="0" data-end="35" data-duration="2000">35</span>
                     </div>
                     <div class="statistics-top-side-desc">
-                        <span>Lorem, ipsum dolor. is</span>
+                        <span>Services et Bureaux</span>
                     </div>
                 </div>
             </div>
@@ -56,10 +56,10 @@
               <div class="statistics-top-side">
                   <div class="statistics-top-side-top">
                       <span>+</span>
-                      <span class="number" data-start="0" data-end="7" data-duration="2000">7</span>
+                      <span class="number" data-start="0" data-end="250" data-duration="2000">250</span>
                   </div>
                   <div class="statistics-top-side-desc">
-                      <span>Lorem, ipsum dolor. is</span>
+                      <span>Cadres et Agents</span>
                   </div>
               </div>
           </div>

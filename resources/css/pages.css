@@ -156,6 +156,23 @@
 
     padding: 0;
 }
+.directions_items:nth-child(6) .directions_item-num-num{
+     background: url("../../public/images/zongo4.webp") no-repeat center / cover;
+      -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+    padding: 0;
+}
+.directions_items:nth-child(7) .directions_item-num-num{
+
+   background: url("../../public/images/vm.jpeg") no-repeat center / cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+    padding: 0;
+}
 
 .d_items_desc-list-item-title{
     display: flex;

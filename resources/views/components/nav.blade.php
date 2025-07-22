@@ -29,8 +29,14 @@
                                                 <li class="menu-drop-down-list">
                                                     <i class="fi fi-rr-arrow-small-right"></i>
                                                     @if($k->is_page == 'yes')
-                                                     <a href="{{route('page.sub.route',['id'=>$k->id])}}" class="menu-drop-down-link">{{$k->name}}</a>
+                                                     @php
+                                                        // use Illuminate\Support\Str;
+
+                                                        $slug = $k->id . '-' . Illuminate\Support\Str::slug($k->name);
+                                                    @endphp
+                                                     <a href="{{route('page.sub.route',['id'=>$slug])}}" class="menu-drop-down-link">{{$k->name}}</a>
                                                     @else
+                                                   
                                                      <a  class="menu-drop-down-link">{{$k->name}}</a> 
                                                     @endif
                                                 </li>

@@ -16,7 +16,8 @@
 <p> L’Office incarne l’engagement de notre pays à faire du tourisme un levier de croissance économique et de valorisation culturelle.</p>
                         </div>
                         <div class="contact_button">
-                            <span class="contact_bttn"><a href="{{route('page.sub.route',['id'=> 4])}}">En savoir plus > </a></span>
+                                                   
+                            <span class="contact_bttn"><a href="{{route('page.sub.route',['id'=> 4 . '-' .Illuminate\Support\Str::slug('a-propos-de-nous')])}}">En savoir plus > </a></span>
                         </div>
                     </div>
                     <div class="contacts_right">

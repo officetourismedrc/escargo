@@ -1017,7 +1017,7 @@
 .au-content-wrapper{
     display: grid;
 }
-.au-content-wrapper .au-items:nth-child(1) .au-item{
+.au-content-wrapper .au-items .au-item{
     background-color: white;
 }
 .au-content-wrapper .au-items:nth-child(1) .au-item:nth-child(4),
@@ -1039,7 +1039,7 @@
   }
 
     .au-item-desc .au-item-title {
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: 700;
     font-family: var(--body-font);
     color: #000;

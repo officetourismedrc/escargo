@@ -13,7 +13,8 @@
                             <div class="article_is-desc">
                                 <p> Promotion et développement du tourisme en mettant en valeur ses richesses culturelles et naturelles...</p>
                             </div>
-                            <a href="{{route('page.sub.route',['id'=>4])}}" class="article-is_vp">
+                            
+                            <a href="{{route('page.sub.route',['id'=>4 . '-' . Illuminate\Support\Str::slug('a-propos-de-nous')])}}" class="article-is_vp">
                                 <span>voir plus</span><span><i class="fa-solid fa-chevron-right"></i></span>
                             </a>
                         </div>

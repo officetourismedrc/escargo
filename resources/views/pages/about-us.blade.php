@@ -4,7 +4,7 @@
             <div class="hero-simple-banner">
                 <div class="hero-simple_content">
                     <div>
-                    <img src="{{asset('/images/16280.jpg')}}" alt="" class="hero-simple_img">
+                    <img src="{{asset('/images/dmctour.jpg')}}" alt="" class="hero-simple_img">
                    
                     </div>
                 </div>
@@ -27,7 +27,7 @@
                 <div class="mission-top">
                     <div class="mission-top-left">
   
-                        <img src="assets/images/ONT2.svg" alt="">
+                        <img src="{{asset('images/tousdebout.jpg')}}" alt="">
                     </div>
                     <div class="mission-top-right">
 
@@ -43,7 +43,7 @@
                 </div>
                 <div class="mission-bottom mission-top">
                     <div class="mission-bottom-right mission-top-left">
-                        <img src="assets/images/27071.jpg" alt="">
+                        <img src="{{asset('images/pleureuse.jpg')}}" alt="">
                     </div>
                     <div class="mission-bottom-left mission-top-right">
 

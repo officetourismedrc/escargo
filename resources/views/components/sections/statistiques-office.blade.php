@@ -5,8 +5,9 @@
               <div class="content-statistics-top">
                 <div class="statistics-top-items">
                     <div class="statistics-top-icon">
-                        <img src="{{ asset('/images/Vectors/Directions.svg') }}" alt="" class="statistics-icon-img">
+                        <img src="{{ asset('/images/icons/statdirectionsreg.svg') }}" alt="" class="statistics-icon-img">
                     </div>
+                    {{-- Directions.svg --}}
                     <div class="statistics-top-side">
                         <div class="statistics-top-side-top">
                             <span>+</span>
@@ -21,7 +22,7 @@
 
                 <div class="statistics-top-items">
                   <div class="statistics-top-icon">
-                      <img src="{{ asset('/images/Vectors/place.svg') }}" alt="" class="statistics-icon-img">
+                      <img src="{{ asset('/images/icons/statantennes.svg') }}" alt="" class="statistics-icon-img">
                   </div>
                   <div class="statistics-top-side">
                       <div class="statistics-top-side-top">
@@ -36,7 +37,7 @@
 
               <div class="statistics-top-items">
                 <div class="statistics-top-icon">
-                    <img src="{{ asset('/images/Vectors/Chair.svg') }}" alt="" class="statistics-icon-img">
+                    <img src="{{ asset('/images/icons/statagencesrdc.svg') }}" alt="" class="statistics-icon-img">
                 </div>
                 <div class="statistics-top-side">
                     <div class="statistics-top-side-top">
@@ -51,7 +52,7 @@
 
             <div class="statistics-top-items">
               <div class="statistics-top-icon">
-                  <img src="{{ asset('/images/Vectors/peoples.svg') }}" alt="" class="statistics-icon-img">
+                  <img src="{{ asset('/images/icons/statprojets.svg') }}" alt="" class="statistics-icon-img">
               </div>
               <div class="statistics-top-side">
                   <div class="statistics-top-side-top">

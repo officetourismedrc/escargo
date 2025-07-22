@@ -68,7 +68,100 @@
         </div>
         </section>
 
+        <section class="section au-section-objectif" style="self-align:end;">
+            <div class="container au-container">
+
+                <h1 class="section-title">Ce que nous faisons</h1>
+                <div class="content au-content">
+
+                    <div class="au-content-wrapper">
+                        <div class="au-items">
+                            <div class="au-item">
+                                <img src="{{asset('images/tourist1.png')}}" alt="" class="au-item-image">
+                            </div>
+                            <div class="au-item">
+                                <img src="{{asset('images/logosquare.png')}}" alt="" class="au-item-image">
+                            </div>
+                            <div class="au-item">
+                               <img src="{{asset('images/tourist2.png')}}" alt="" class="au-item-image">
+                            </div>
+                            <div class="au-item">
+                               <div class="au-item-desc">
+                                 <h1 class="au-item-title">FACILITATION</h1>
+                                 <span class="au-item-desc-text">Des investissement directs par des partennaires public-privé</span>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="au-items">
+                            <div class="au-item">
+                               
+                               <div class="au-item-desc">
+                                 <h1 class="au-item-title">PROMOTION</h1>
+                                 <span class="au-item-desc-text">Du tourisme national et international, de l'ecotourisme</span>
+                               </div>
+                            
+                            </div>
+                            <div class="au-item">
+                                <img src="{{asset('images/16280.jpg')}}" alt="" class="au-item-image-fixe">
+                                 <img src="{{asset('images/food.png')}}" alt="" class="au-item-image au-item-image-absolute">
+                            </div>
+                            <div class="au-item">
+                                <div class="au-item-desc">
+                                 <h1 class="au-item-title">RENFORCEMENT</h1>
+                                 <span class="au-item-desc-text">Des capacités des professuinels du secteur</span>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="au-items">
+                            <div class="au-item">
+                                 <div class="au-item-desc">
+                                 <h1 class="au-item-title">COMMERCIALISATION</h1>
+                                 <span class="au-item-desc-text">Et Protection des recsources touristiques</span>
+                               </div>
+                            </div>
+                            <div class="au-item">
+                                 <img src="{{asset('images/flag.png')}}" alt="" class="au-item-image">
+                            </div>
+                            <div class="au-item">
+                                 <div class="au-item-desc">
+                                 <h1 class="au-item-title">RECENSEMENT,</h1>
+                                 <span class="au-item-desc-text">AMENAGEMENT et GESTION des sites non classés</span>
+                               </div>
+                            </div>
+                            <div class="au-item">
+                                 <img src="{{asset('images/monkey.png')}}" alt="" class="au-item-image">
+                            </div>
+                        </div>
+                        <div class="au-items">
+                             <div class="au-item">
+                                <img src="{{asset('images/okapi.png')}}" alt="" class="au-item-image">
+                             </div>
+                            <div class="au-item">
+                                <div class="au-item-desc">
+                                 <h1 class="au-item-title">PRESERVATION</h1>
+                                 <span class="au-item-desc-text">Et protection des ressources touristiques</span>
+                               </div>
+                            </div>
+                            <div class="au-item">
+                                <img src="{{asset('images/mask.png')}}" alt="" class="au-item-image">
+                            </div>
+                             <div class="au-item">
+                                <div class="au-item-desc">
+                                 <h1 class="au-item-title">GESTION</h1>
+                                 <span class="au-item-desc-text">Des taxes parafiscales revenant à l'Office National du Tourisme</span>
+                               </div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
        <!-- ========  end section about us   ============== -->
+
+        <!-- section nos valeurs ============= -->
+      @include('components.sections.nos-valeurs')
 
  
 </x-layouts.app>

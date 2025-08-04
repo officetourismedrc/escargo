@@ -34,8 +34,8 @@ const menuOpen = document.querySelector('.open-menu');
 
 // preloader object
 // const preLoader = document.querySelector('.pre-loader');
-const preLoaderCounter = document.querySelector('.pre-loader-counter');
-const preLoaderOverlay = document.querySelector('.pre-loader-overlay');
+//const preLoaderCounter = document.querySelector('.pre-loader-counter');
+//const preLoaderOverlay = document.querySelector('.pre-loader-overlay');
 
 // menu reveal and hide ==================
  menuClose.addEventListener('click', ()=>{
@@ -601,6 +601,66 @@ if(document.querySelector('.section-event') !==  null){
     });
   });
 
+
+}
+
+
+// antenne regional animation 
+const containerMap = document.querySelector('.svg-card');
+const containerCard = document.querySelector('.al-container');
+
+if(containerCard !== null){
+
+function animateCard(){
+     const cards = containerCard.querySelectorAll('.al-items');
+    const mapsItems = containerMap.querySelectorAll('.map-item');
+
+   
+
+    mapsItems.forEach((value, index, arr)=>{
+
+      
+         value.addEventListener('mouseover', (event)=>{
+
+            let textId =  event.target.id.replace('item-', '').toLowerCase();
+
+           
+            event.target.classList.add('active');
+            console.log(textId);
+
+            cards.forEach((cardItem, indx, arr1)=>{
+ 
+               if(cardItem.id === textId){
+                
+                   cardItem.classList.add(('active-card'));
+
+               }
+            });
+            
+         });
+
+         value.addEventListener('mouseout',()=>{
+            removeActive(mapsItems, 'active');
+            removeActive(cards, 'active-card');
+         })
+    });
+
+}
+
+function removeActive(a,b){
+    a.forEach((value)=>{
+        if(value.classList.contains(b))
+            value.classList.remove(b);
+    })
+}
+
+
+
+document.addEventListener('DOMContentLoaded', ()=>{
+   
+   animateCard();
+    
+});
 
 }
 

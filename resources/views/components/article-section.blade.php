@@ -2,7 +2,7 @@
          <section class="section section-actu">
             <div class="container container-actu">
                    <div class="title-section">
-                    <a href="">  <h2 class="title_1"> Actualités et Infos <i class="fa-solid fa-arrow-up-right-from-square"></i></h2></a>
+                    <a href="{{route('articles.route')}}">  <h2 class="title_1"> Actualités et Infos <i class="fa-solid fa-arrow-up-right-from-square"></i></h2></a>
                    </div>
                 <div class="content content-actu">
                    <div class="actu-item actu-left">

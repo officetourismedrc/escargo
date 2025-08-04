@@ -22,4 +22,14 @@ class ActuController extends Controller
         }
 
     }
+
+
+     public function showAll(Request $request){
+
+        $article = Articles::latest()->get();
+
+        
+        return view('pages.articles',compact('article'));
+
+     }
 }

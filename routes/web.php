@@ -30,7 +30,8 @@ Route::middleware(['auth'])->group(function () {
 
 Route::get('test-dev', [TestController::class, 'add'])->name('route.test');
 
-Route::get('articles/{id}/{slug?}', [ActuController::class, 'show'])->name('article.route');
+Route::get('article/{id}/{slug?}', [ActuController::class, 'show'])->name('article.route');
+Route::get('articles/{slug?}', [ActuController::class, 'showAll'])->name('articles.route');
 Route::get('pages-pages/{id}/{slug?}', [PagesController::class, 'show'])->name('page.route');
 Route::get('pages/{id}/{slug?}', [PagesController::class, 'showSub'])->name('page.sub.route');
 

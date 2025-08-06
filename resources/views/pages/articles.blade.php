@@ -10,8 +10,8 @@
                 </div>
             </div>
              <div class="article-content-bttm">
-                    <div class="article-content-bttm-left">
-                     <a href='{{route("article.route", ["id" => $article[0]->id, "slug" => Illuminate\Support\Str::slug($article[0]->title)])}}' class="article-content-bttm-left-contnet">
+                    <a href='{{route("article.route", ["id" => $article[0]->id, "slug" => Illuminate\Support\Str::slug($article[0]->title)])}}' class="article-content-bttm-left">
+                     <div  class="article-content-bttm-left-contnet" >
                             <div class="article-content-bttm-left-img">
                                 <img src='{{ asset($article[0]->featured_image) }}' alt="">
                             </div>
@@ -27,15 +27,15 @@
                                 
                                 </div>
                             </div>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                      <div class="article-content-bttm-right">
 
                         <div class="article-content-bttm-right-top">
 
-                            <div class="article-content-bttm-right-top-1">
+                            <a href='{{route("article.route", ["id" => $article[1]->id, "slug" => Illuminate\Support\Str::slug($article[1]->title)])}}' class="article-content-bttm-right-top-1">
 
-                                 <a href='{{route("article.route", ["id" => $article[1]->id, "slug" => Illuminate\Support\Str::slug($article[1]->title)])}}' class="article-content-bttm-left-contnet">
+                                 <div  class="article-content-bttm-left-contnet">
                                     <div class="article-content-bttm-left-img">
                                         <img src='{{ asset($article[1]->featured_image)}}' alt="">
                                     </div>
@@ -51,11 +51,12 @@
                                         
                                         </div>
                                     </div>
-                                </a>
-                            </div>
-                            <div class="article-content-bttm-right-top-2">
+                                </div>
+                            </a>
 
-                                 <a href='{{route("article.route", ["id" => $article[2]->id, "slug" => Illuminate\Support\Str::slug($article[2]->title)])}}' class="article-content-bttm-left-contnet">
+                            <a href='{{route("article.route", ["id" => $article[2]->id, "slug" => Illuminate\Support\Str::slug($article[2]->title)])}}'  class="article-content-bttm-right-top-2">
+
+                                 <div class="article-content-bttm-left-contnet" >
                             <div class="article-content-bttm-left-img">
                                 <img src='{{ asset($article[2]->featured_image)}}' alt="">
                             </div>
@@ -71,15 +72,15 @@
                                 
                                 </div>
                             </div>
-                        </a>
-                            </div>
+                        </div>
+                    </a>
 
                         </div>
                          <div class="article-content-bttm-right-bottom article-content-bttm-right-top">
 
 
-                            <div class="article-content-bttm-right-top-1">
-                                <a href='{{route("article.route", ["id" => $article[3]->id, "slug" => Illuminate\Support\Str::slug($article[3]->title)])}}' class="article-content-bttm-left-contnet">
+                            <a href='{{route("article.route", ["id" => $article[3]->id, "slug" => Illuminate\Support\Str::slug($article[3]->title)])}}' class="article-content-bttm-right-top-1">
+                                <div  class="article-content-bttm-left-contnet" >
                                     <div class="article-content-bttm-left-img">
                                         <img src='{{ asset($article[3]->featured_image)}}' alt="">
                                     </div>
@@ -95,10 +96,10 @@
                                         
                                         </div>
                                     </div>
-                                </a>
-                            </div>
-                            <div class="article-content-bttm-right-top-2">
-                                 <a href='{{route("article.route", ["id" => $article[4]->id, "slug" => Illuminate\Support\Str::slug($article[4]->title)])}}' class="article-content-bttm-left-contnet">
+                                </div>
+                            </a>
+                            <a href='{{route("article.route", ["id" => $article[4]->id, "slug" => Illuminate\Support\Str::slug($article[4]->title)])}}' class="article-content-bttm-right-top-2">
+                                 <div  class="article-content-bttm-left-contnet" >
                                     <div class="article-content-bttm-left-img">
                                         <img src='{{ asset($article[4]->featured_image)}}' alt="">
                                     </div>
@@ -114,8 +115,8 @@
                                         
                                         </div>
                                     </div>
-                                </a>
-                            </div>
+                                </div>
+                            </a>
                          </div>
 
                      </div>
@@ -143,7 +144,7 @@
                     @if($loop->index >= 4)
                      @break
                     @endif
-                        <a href='{{route("article.route", ["id" => $item->id, "slug" => Illuminate\Support\Str::slug($item->title)])}}' class="article-content-right-item">
+                        <a href='{{route("article.route", ["id" => $item->id, "slug" => Illuminate\Support\Str::slug($item->title)])}}' class="article-content-right-item" >
 
                         <div class="article-content-right-item-img">
 
@@ -178,7 +179,7 @@
                      @break
                     @endif
 
-                    <a href='{{route("article.route", ["id" => $item->id, "slug" => Illuminate\Support\Str::slug($item->title)] )}}' class="article-content-right-item">
+                    <a href='{{route("article.route", ["id" => $item->id, "slug" => Illuminate\Support\Str::slug($item->title)] )}}' class="article-content-right-item" >
 
                         <div class="article-content-right-item-img">
 
@@ -206,7 +207,7 @@
          </div>
 
        </div>
-       <div class="container article-container-section-3">
+       {{-- <div class="container article-container-section-3">
 
         <div class="ad-article-container-3-out">
             <img src='{{ asset("images/Mask group3.png")}}' alt="">
@@ -344,7 +345,7 @@
        </div>
 
 
-       </div>
+       </div> --}}
        </section>
 
        </x-layouts.app>

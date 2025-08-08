@@ -24,7 +24,7 @@
                             </div>
                             <div class="pj-link">
                                 <a href="#pj-d-card_01" class="pj-link-link">
-                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    <i class="fa-solid fa-arrow-right"></i>
                                 </a>
                             </div>
 
@@ -49,7 +49,7 @@
                             </div>
                             <div class="pj-link">
                                 <a href="#pj-d-card_02" class="pj-link-link">
-                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    <i class="fa-solid fa-arrow-right"></i>
                                 </a>
                             </div>
 
@@ -74,7 +74,7 @@
                             </div>
                             <div class="pj-link">
                                 <a href="#pj-d-card_03" class="pj-link-link">
-                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                   <i class="fa-solid fa-arrow-right"></i>
                                 </a>
                             </div>
 
@@ -99,7 +99,7 @@
                             </div>
                             <div class="pj-link">
                                 <a href="" class="pj-link-link">
-                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                   <i class="fa-solid fa-arrow-right"></i>
                                 </a>
                             </div>
 
@@ -124,7 +124,7 @@
                             </div>
                             <div class="pj-link">
                                 <a href="" class="pj-link-link">
-                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    <i class="fa-solid fa-arrow-right"></i>
                                 </a>
                             </div>
 
@@ -149,7 +149,7 @@
                             </div>
                             <div class="pj-link">
                                 <a href="" class="pj-link-link">
-                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    <i class="fa-solid fa-arrow-right"></i>
                                 </a>
                             </div>
 

@@ -1103,7 +1103,13 @@
 
 /* project styling======================= */
 .pj-section{
-    padding-top: 5rem;
+    padding-top: 8rem;
+}
+.pj-link .pj-link-link i{
+   transform: rotate(-45deg);
+    transform-origin: center;
+     font-size: 1.8rem;
+     color: white;
 }
 
 

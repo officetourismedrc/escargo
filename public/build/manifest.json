@@ -44,6 +44,10 @@
     "file": "assets/logo_black_white_ont_paysage-zCYzoDoy.png",
     "src": "resources/images/Logos/logo_black_white_ont_paysage.png"
   },
+  "resources/images/Logos/logo_black_white_portrait.png": {
+    "file": "assets/logo_black_white_portrait-DxRf2Zhp.png",
+    "src": "resources/images/Logos/logo_black_white_portrait.png"
+  },
   "resources/images/Logos/logo_color_paysage.svg": {
     "file": "assets/logo_color_paysage-B1UNLLos.svg",
     "src": "resources/images/Logos/logo_color_paysage.svg"

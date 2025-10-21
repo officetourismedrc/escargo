@@ -9,8 +9,8 @@
                        <span class="title_1"></span>
                     </div>
                     <div class="top-footer-item">
-                        <img class="top-footer-item-img" src="{{ Vite::asset('resources/images/Logos/logo_black_white_portrait.svg') }}" alt="logo office national du tourisme rdc">
-
+                        <img class="top-footer-item-img" src="{{  asset('/images/logo_black_white_portrait.png') }}" alt="logo office national du tourisme rdc">
+                         
                        
                     </div>
                 </div>

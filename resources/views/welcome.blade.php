@@ -113,9 +113,10 @@
         <div class="header-cotainer">         
                  <a class="logo" href="{{ route('home')}}">
                  <div class="logo-adjuster">
-                    <img src="{{ Vite::asset('resources/images/Logos/logo_color_ont_paysage.png') }}" alt="logo de l'office national du tourisme rd congo" class="logo-img">
-
-                    
+                    <img src="{{ asset('/images/logo_color_ont_paysage.png') }}" alt="logo de l'office national du tourisme rd congo" class="logo-img">
+                    {{--
+                                 public/images/logo_color_ont_paysage.png
+                    --}}
                  </div>
                 </a>        
              <div class="nav">

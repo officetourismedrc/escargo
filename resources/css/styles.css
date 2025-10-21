@@ -2291,8 +2291,8 @@ justify-items: left;
       transform: translateX(-50%);
   }
   .top-footer-item-img{
-    width: 150px;
-    transform: translateY(-1rem);
+    width: 90px;
+    transform: translate(2rem,-1rem);
   }
   .top-footer-items{
       display: grid;

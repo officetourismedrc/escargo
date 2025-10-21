@@ -5,8 +5,8 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-import assetLogoColorJs from './../images/Logos/ONT1.svg';
-import assetLogoBlackWhiteJs from './../images/Logos/ONT6.svg';
+import assetLogoColorJs from './../images/Logos/logo_color_paysage.svg';
+import assetLogoBlackWhiteJs from './../images/Logos/logo_black_white_ont_paysage.png';
 import assetBurgerColorJs from '../../public/images/icons/menu-burger-blue.png';
 import assetBurgerWhiteJs from '../../public/images/icons/menu-burger-white.png';
 import assetChevronWhiteJs from '../../public/images/Vectors/angle-down.svg';

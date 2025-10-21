@@ -36,28 +36,28 @@
     "src": "public/images/zongo4.webp"
   },
   "resources/css/app.css": {
-    "file": "assets/app-laMwEHLk.css",
+    "file": "assets/app-DeZuT4et.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
-  "resources/images/Logos/ONT1.svg": {
-    "file": "assets/ONT1-T52WdH_P.svg",
-    "src": "resources/images/Logos/ONT1.svg"
+  "resources/images/Logos/logo_black_white_ont_paysage.png": {
+    "file": "assets/logo_black_white_ont_paysage-zCYzoDoy.png",
+    "src": "resources/images/Logos/logo_black_white_ont_paysage.png"
   },
-  "resources/images/Logos/ONT3.png": {
-    "file": "assets/ONT3-DFzLegAZ.png",
-    "src": "resources/images/Logos/ONT3.png"
+  "resources/images/Logos/logo_color_paysage.svg": {
+    "file": "assets/logo_color_paysage-B1UNLLos.svg",
+    "src": "resources/images/Logos/logo_color_paysage.svg"
   },
-  "resources/images/Logos/ONT6.svg": {
-    "file": "assets/ONT6-Dfr1Jtqc.svg",
-    "src": "resources/images/Logos/ONT6.svg"
+  "resources/images/Logos/logo_color_portrait.png": {
+    "file": "assets/logo_color_portrait-D9TWGPzq.png",
+    "src": "resources/images/Logos/logo_color_portrait.png"
   },
   "resources/images/Paysage_du_territoire_de_Masisi.jpg": {
     "file": "assets/Paysage_du_territoire_de_Masisi-CAopiIZ4.jpg",
     "src": "resources/images/Paysage_du_territoire_de_Masisi.jpg"
   },
   "resources/js/app.js": {
-    "file": "assets/app-DQzqztYr.js",
+    "file": "assets/app-2TfEDmIf.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
@@ -73,7 +73,7 @@
     "isEntry": true
   },
   "resources/js/script.js": {
-    "file": "assets/script-DKdcorze.js",
+    "file": "assets/script--LnVeHkn.js",
     "name": "script",
     "src": "resources/js/script.js",
     "isEntry": true,
@@ -81,8 +81,8 @@
       "assets/script-Ds_YmOBQ.css"
     ],
     "assets": [
-      "assets/ONT6-Dfr1Jtqc.svg",
-      "assets/ONT1-T52WdH_P.svg",
+      "assets/logo_black_white_ont_paysage-zCYzoDoy.png",
+      "assets/logo_color_paysage-B1UNLLos.svg",
       "assets/menu-burger-blue-CIIEJO-u.png",
       "assets/menu-burger-white-BIwGyEij.png",
       "assets/angle-down-CNLu8yy-.svg",

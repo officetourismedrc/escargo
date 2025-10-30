@@ -1,5 +1,26 @@
 
-<x-layouts.app :title="__('ok')">
+<x-layouts.app 
+    :title="$title ?? null"
+        :metaTitle="$metaTitle ?? null" 
+        :description="$description ?? null" 
+        :robot="$robot ?? null" 
+        :canonical="$canonical ?? null" 
+        :language="$language ?? null" 
+        :author="$author ?? null" 
+        :ogTitle="$ogTitle ?? null" 
+        :ogDescription="$ogDescription ?? null"  
+        :ogImage="$ogImage ?? null" 
+        :ogUrl="$ogUrl ?? null" 
+        :ogType="$ogType ?? null" 
+        :ogSiteName="$ogSiteName ?? null" 
+        :ogLocale="$ogLocale ?? null" 
+        :twitterTitle="$twitterTitle ?? null"  
+        :twitterDescription="$twitterDescription ?? null" 
+        :twitterImage="$twitterImage ?? null" 
+        :twitterCard="$twitterCard ?? null" 
+        :twitterSite="$twitterSite ?? null" 
+        :twitterCreator="$twitterCreator ?? null" 
+>
     <x-hero-section title="Kinshasa : L'Office National du Tourisme a célébré la journée internationale des monuments et sites touristiques" 
                     imageUrl="/images/articles-images/Photo-traiter4.png"
     />

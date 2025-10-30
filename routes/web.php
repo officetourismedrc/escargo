@@ -10,7 +10,48 @@ use App\Http\Controllers\ActuController;
 use App\Http\Controllers\PagesController;
 
 Route::get('/', function () {
-    return view('welcome');
+
+        $title = $title ?? 'Office National du Tourisme RDC - Explorez les merveilles du Congo';
+        $metaTitle = $metaTitle ?? 'Office National du Tourisme RDC - Explorez les merveilles du Congo';
+        $description = $description ?? 'Découvrez les destinations touristiques, la culture et les événements en République Démocratique du Congo avec l\'Office National du Tourisme RDC.';
+        $robot = $robot ?? 'index, follow';
+        $canonical = $canonical ?? 'https://www.officetourisme.cd/';
+        $language = $language ?? 'fr';
+        $author = $author ?? 'Office National du Tourisme RDC';
+        $ogTitle = $ogTitle ?? 'Office National du Tourisme RDC - Explorez les merveilles du Congo';
+        $ogDescription = $ogDescription ?? 'Découvrez les destinations touristiques, la culture et les événements en République Démocratique du Congo avec l\'Office National du Tourisme RDC.';
+        $ogImage = $ogImage ?? asset('/images/logo_color_ont_paysage.png');
+        $ogUrl = $ogUrl ?? url()->current();
+        $ogType = $ogType ?? 'website';
+        $ogSiteName = $ogSiteName ?? 'Office National du Tourisme RDC';
+        $ogLocale = $ogLocale ?? 'fr_FR';
+        $twitterTitle = $twitterTitle ?? 'Office National du Tourisme RDC - Explorez les merveilles du Congo';
+        $twitterDescription = $twitterDescription ?? 'Découvrez les destinations touristiques, la culture et les événements en République Démocratique du Congo avec l\'Office National du Tourisme RDC.';
+        $twitterImage = $twitterImage ?? asset('/images/logo_color_ont_paysage.png');
+        $twitterCard = $twitterCard ?? 'summary_large_image';
+        $twitterSite = $twitterSite ?? '@ONT_RDC';
+        $twitterCreator = $twitterCreator ?? '@ONT_RDC';
+
+    return view('welcome', compact('title',
+                                        'metaTitle',
+                                        'description',
+                                        'robot',
+                                        'canonical',
+                                        'language',
+                                        'author',
+                                        'ogTitle',
+                                        'ogDescription',
+                                        'ogImage',
+                                        'ogUrl',
+                                        'ogType',
+                                        'ogSiteName',
+                                        'ogLocale',
+                                        'twitterTitle',
+                                        'twitterDescription',
+                                        'twitterImage',
+                                        'twitterCard',
+                                        'twitterSite',
+                                        'twitterCreator'));
 })->name('home');
 
 Route::view('dashboard', 'dashboard')

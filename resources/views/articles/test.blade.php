@@ -1,5 +1,5 @@
 
-<x-layouts.app :title="__('ok')">
+<x-layouts.app >
     <x-hero-section title="Kinshasa : L'Office National du Tourisme a célébré la journée internationale des monuments et sites touristiques" />
   
 

@@ -1,4 +1,26 @@
-<x-layouts.app :title="__('ok')">
+<x-layouts.app 
+    :title="$title ?? null"
+        :metaTitle="$metaTitle ?? null" 
+        :description="$description ?? null" 
+        :robot="$robot ?? null" 
+        :canonical="$canonical ?? null" 
+        :language="$language ?? null" 
+        :author="$author ?? null" 
+        :ogTitle="$ogTitle ?? null" 
+        :ogDescription="$ogDescription ?? null"  
+        :ogImage="$ogImage ?? null" 
+        :ogUrl="$ogUrl ?? null" 
+        :ogType="$ogType ?? null" 
+        :ogSiteName="$ogSiteName ?? null" 
+        :ogLocale="$ogLocale ?? null" 
+        :twitterTitle="$twitterTitle ?? null"  
+        :twitterDescription="$twitterDescription ?? null" 
+        :twitterImage="$twitterImage ?? null" 
+        :twitterCard="$twitterCard ?? null" 
+        :twitterSite="$twitterSite ?? null" 
+        :twitterCreator="$twitterCreator ?? null" 
+
+>
   <x-hero-section title="La PCA de l'ONT à la CSW 69 : Plaidoyer pour l'avancement des femmes comme condition d'une société pacifique" 
   imageUrl="/images/articles-images/images5joznLWVjLAnus2RoUmpT3dq0wysH1YiEk1U5set.webp"/>
   

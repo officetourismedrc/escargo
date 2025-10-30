@@ -1,4 +1,25 @@
-<x-layouts.app :title="__('ok')">
+<x-layouts.app 
+    :title="$title ?? null"
+        :metaTitle="$metaTitle ?? null" 
+        :description="$description ?? null" 
+        :robot="$robot ?? null" 
+        :canonical="$canonical ?? null" 
+        :language="$language ?? null" 
+        :author="$author ?? null" 
+        :ogTitle="$ogTitle ?? null" 
+        :ogDescription="$ogDescription ?? null"  
+        :ogImage="$ogImage ?? null" 
+        :ogUrl="$ogUrl ?? null" 
+        :ogType="$ogType ?? null" 
+        :ogSiteName="$ogSiteName ?? null" 
+        :ogLocale="$ogLocale ?? null" 
+        :twitterTitle="$twitterTitle ?? null"  
+        :twitterDescription="$twitterDescription ?? null" 
+        :twitterImage="$twitterImage ?? null" 
+        :twitterCard="$twitterCard ?? null" 
+        :twitterSite="$twitterSite ?? null" 
+        :twitterCreator="$twitterCreator ?? null" 
+>
   <x-hero-section title="Célébration du 8 Mars : L’Office National du Tourisme célèbre la femme et le patrimoine congolais au Village de la Femme" 
                     imageUrl="/images/articles-images/imagesLeXPepSAyZRnWJrtMFASZh4ubWnpppK4ccoKEgn4.webp"/>
   

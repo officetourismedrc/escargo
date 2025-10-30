@@ -1,16 +1,50 @@
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="Tourisme RDC, Voyage au Congo, Parcs nationaux RDC, Safari en RDC, Écotourisme Congo, Destinations touristiques RDC, Patrimoine culturel congolais, Aventure en République Démocratique du Congo, Sites historiques RDC, Tourisme durable en RDC, Voyage en Afrique centrale, Expérience authentique au Congo, Randonnée en RDC, Lacs et rivières du Congo, Faune et flore du Congo, Office National du Tourisme RDC, Guide touristique RDC, Meilleurs endroits à visiter en RDC, Voyage organisé au Congo, Tourisme et développement RDC, Hébergement et hôtels RDC, Activités touristiques en RDC, Transport et circuits en RDC, Conseils voyage RDC, Sécurité et tourisme en RDC, Musique Congolaise, Rumba Congolaise, Okapie">
+        
+        <x-meta-tags-principal 
 
-    <x-meta-tags-principal />
+            :title="$title"
+            :metaTitle="$metaTitle"
+            :description="$description"
+            :robot="$robot"
+            :canonical="$canonical"
+            :language="$language"
+            :author="$author"
+         
+         />
 
-    <title>Office National Tourisme RD Congo</title>
+         <x-o-g-meta-principal 
+         
+           :ogTitle="$ogTitle"
+            :ogDescription="$ogDescription"
+            :ogImage="$ogImage"
+            :ogUrl="$ogUrl"
+            :ogType="$ogType"
+            :ogSiteName="$ogSiteName"
+            :ogLocale="$ogLocale"  
+         
+         />
+         
+         <x-twitter-meta-principal 
+           
+            :twitterTitle="$twitterTitle"
+            :twitterDescription="$twitterDescription"
+            :twitterImage="$twitterImage"
+            :twitterCard="$twitterCard"
+            :twitterSite="$twitterSite"
+            :twitterCreator="$twitterCreator"
+         
+         />
+         
 
-    <link rel="icon" href="/favicon.ico" sizes="any">
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+        <link rel="icon" href="/favicon.ico" sizes="any">
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-    <link rel="icon" type="image/svg+xml" href="assets/images/Logos/ONT2.svg" />
+        <link rel="icon" type="image/svg+xml" href="{{ asset('./images/Logos/ONT2.svg')}}" />
+
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">

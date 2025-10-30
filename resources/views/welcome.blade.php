@@ -4,11 +4,43 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="keywords" content="Tourisme RDC, Voyage au Congo, Parcs nationaux RDC, Safari en RDC, Écotourisme Congo, Destinations touristiques RDC, Patrimoine culturel congolais, Aventure en République Démocratique du Congo, Sites historiques RDC, Tourisme durable en RDC, Voyage en Afrique centrale, Expérience authentique au Congo, Randonnée en RDC, Lacs et rivières du Congo, Faune et flore du Congo, Office National du Tourisme RDC, Guide touristique RDC, Meilleurs endroits à visiter en RDC, Voyage organisé au Congo, Tourisme et développement RDC, Hébergement et hôtels RDC, Activités touristiques en RDC, Transport et circuits en RDC, Conseils voyage RDC, Sécurité et tourisme en RDC, Musique Congolaise, Rumba Congolaise, Okapie">
-         <x-meta-tags-principal />
-         <x-o-g-meta-principal />
-         <x-twitter-meta-principal />
+         <x-meta-tags-principal 
+
+            :title="$title"
+            :metaTitle="$metaTitle"
+            :description="$description"
+            :robot="$robot"
+            :canonical="$canonical"
+            :language="$language"
+            :author="$author"
+           
          
-        <title>Office National Tourisme RD Congo</title>
+         />
+         <x-o-g-meta-principal 
+         
+           :ogTitle="$ogTitle"
+            :ogDescription="$ogDescription"
+            :ogImage="$ogImage"
+            :ogUrl="$ogUrl"
+            :ogType="$ogType"
+            :ogSiteName="$ogSiteName"
+            :ogLocale="$ogLocale"  
+         
+         />
+         
+         <x-twitter-meta-principal 
+           
+            :twitterTitle="$twitterTitle"
+            :twitterDescription="$twitterDescription"
+            :twitterImage="$twitterImage"
+            :twitterCard="$twitterCard"
+            :twitterSite="$twitterSite"
+            :twitterCreator="$twitterCreator"
+
+         
+         />
+         
+       
 
 
 

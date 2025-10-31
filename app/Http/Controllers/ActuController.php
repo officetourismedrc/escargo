@@ -45,8 +45,8 @@ class ActuController extends Controller
             $twitterDescription = substr(strip_tags($article->summary), 0, 155);
             $twitterImage = asset($article->featured_image);
             $twitterCard = 'summary_large_image';
-            $twitterSite = '@ONT_RDC';
-            $twitterCreator = '@Blaise_Basomboli';  
+            $twitterSite = '@CongoRdtourism';
+            $twitterCreator = '@BlaiseBASOMBOLI';  
 
 
             return  view($article->source_adress,  compact('article', 

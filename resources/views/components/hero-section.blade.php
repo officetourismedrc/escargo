@@ -3,7 +3,7 @@
         <div class="hero-simple_content">
             <div>
                
-            <img src="{{ asset($imageUrl)}}"  alt="why why why" class="hero-simple_img">
+            <img src="{{ asset($imageUrl)}}"  alt="Tourisme RDC, Voyage au Congo" class="hero-simple_img">
             
             </div>
         </div>
